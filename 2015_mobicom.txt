@@ -1,0 +1,1953 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>MobiCom 2015: The 21st Annual International Conference on
+      Mobile Computing and Networking</title>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <link type="text/css" rel="stylesheet" href="http://www.sigmobile.org/mobicom/2014/mobicom2009.css">
+    <meta name="description" content="The 21st Annual International
+      Conference on Mobile Computing and Networking. ACM MobiCom 2015,
+      the Annual International Conference on Mobile Computing and
+      Networking, is the nineteenth in a series of annual conferences
+      sponsored by ACM SIGMOBILE dedicated to addressing the challenges
+      in the areas of mobile computing and wireless and mobile
+      networking. The MobiCom conference series serves as a highly
+      selective, premier international forum addressing networks,
+      systems, algorithms, and applications that support mobile
+      computers and wireless networks. In addition to the regular
+      conference program, MobiCom 2015 will include a set of workshops,
+      panels, research demonstrations, and a poster session that
+      includes the ACM Student Research Competition. This year, Mobicom
+      will also be introducing a new mobile app competition and a new
+      session of invited industry presentations.The conference will be
+      held in Paris, France.">
+    <meta name="keywords" content="MobiCom, SIGMOBILE, ACM, mobile,
+      computing, networking, mobile computing, mobile networking,
+      wireless, communications, conference, research, mobile technology,
+      wireless technology, applications, middleware, distributed
+      systems, ad hoc, sensor, multimedia, Ubiquitous, Pervasive, Mobile
+      Apps">
+    <link rel="SHORTCUT ICON" href="favicon.ico">
+    <style type="text/css" media="all">
+                                @import "style_2006.css";
+                                </style>
+    <script type="text/javascript" src="js_2006.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script>
+        function photoInfo() {
+            $('#showLink').hide();
+            $('#photoInfoPane').css({opacity:0.7});
+            $('#photoInfoPane').animate({
+                left: '+=200'
+              }, 300, function() {
+                // Animation complete.
+              });
+            $('#photoInfo').animate({
+                left: '+=200'
+              }, 300, function() {
+                // Animation complete.
+              });	
+        }
+
+        function photoInfoHide() {
+            $('#showLink').show();
+            $('#photoInfoPane').animate({
+                left: '-=200'
+              }, 300, function() {
+                // Animation complete.
+              });
+            $('#photoInfo').animate({
+                left: '-=200'
+              }, 300, function() {
+                // Animation complete.
+              });	
+            
+        }
+    </script>
+  </head>
+  <body leftmargin="0" topmargin="0" bgcolor="#CCCCCC" marginheight="0"
+    marginwidth="0">
+    <center>
+      <table border="0" cellpadding="0" cellspacing="0" width="740">
+        <tbody>
+          <tr>
+            <td><img src="images/corner_tl.gif" alt=""></td>
+            <td bgcolor="#FFFFFF"><br>
+            </td>
+            <td><img src="images/corner_tr.gif" alt=""></td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFFF" width="19">&nbsp;</td>
+            <td bgcolor="#FFFFFF">
+              <center>
+                <table width="700" border="0" cellspacing="0" cellpadding="0" style="position:relative">
+							<tr>
+								<td><img src="images/mobicom15-temp-banner.jpg" width="700" height="239"
+									border="0" usemap="#Map"
+									alt="MobiCom 2015 / Paris, France / September 7- 11, 2015">
+                                    <div class="photoAttr">
+                                        <a style="display: absolute;" href="javascript:photoInfo()" id="showLink">Photo info</a>
+                                        <div style="opacity: 0.7; left: -200px;" id="photoInfoPane"></div>
+                                        <div style="left: -200px;" id="photoInfo">
+                                            <p style="margin-bottom:20px">Photod by <br> <a href="http://davidnaylor.org/blog/2010/02/my-three-best-photos-2009/">David Naylor</a>.</p>
+
+                                            <!--
+                                            <div>
+                                                <div style="margin-bottom:5px">Description: <b>Photo of The Mount Washington Hotel at Bretton Woods</b></div>
+                                                <a href="http://photos.davidkotz.org/Travel/2013/2013-Mount-Washington-Hotel/i-zCcjZZ4"><img width="70" src="images/bannerimage.jpg"
+                                            style="float:left; margin-right:5px;"/></a>
+                                            </div>
+                                            -->
+                                            <div style="clear:both"></div>
+                                            <p style="margin-top:20px">The photo is copyrighted by its owner. All rights reserved. Unauthorized use prohibited.</p>
+
+                                            <a href="javascript:photoInfoHide()" id="hideLink">Close</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                    
+							</tr>
+						</table>
+                        <div id="menu">
+                            <table width="700" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="topLinksTopL" id="l1">&nbsp;<a
+                                        href="index.html" onMouseOver="roll('l1', 'topLinksTopDL');"
+                                        onMouseOut="roll('l1', 'topLinksTopL');">Home</a>&nbsp;</td>
+                                    <td class="topLinksTop" id="l2"><a href="about.html"
+                                        onMouseOver="roll('l2', 'topLinksTopD');"
+                                        onMouseOut="roll('l2', 'topLinksTop');">&nbsp;About
+                                        &nbsp;</a>
+                                    </td>
+                                    <td class="topLinksTop" id="l4"><a href="committees.html"
+                                        onMouseOver="roll('l4', 'topLinksTopD');"
+                                        onMouseOut="roll('l4', 'topLinksTop');">&nbsp;Committees&nbsp;</a>
+                                    </td>
+                                    <td class="topLinksTop" id="l3"><a href="cfp.html"
+                                        onMouseOver="roll('l3', 'topLinksTopD');"
+                                        onMouseOut="roll('l3', 'topLinksTop');">&nbsp;CFP&nbsp;</a>
+                                    </td>
+                                    
+                                    <td class="topLinksTop" id="l5"><a href="workshops.html"
+                                        onMouseOver="roll('l5', 'topLinksTopD');"
+                                        onMouseOut="roll('l5', 'topLinksTop');">&nbsp;Workshops&nbsp;</a>
+                                    </td>
+                                    <td class="topLinksTop" id="16"><a href="demos.html"
+                                        onMouseOver="roll('16', 'topLinksTopD');"
+                                        onMouseOut="roll('16', 'topLinksTop');">&nbsp;Demos &amp;
+                                        Exhibits&nbsp;</a>
+                                    </td>
+                                    <td class="topLinksTop" id="l7"><a href="posters.html"
+                                        onMouseOver="roll('l7', 'topLinksTopD');"
+                                        onMouseOut="roll('l7', 'topLinksTop');">&nbsp;Posters &amp;
+                                        SRC&nbsp;</a>
+                                    </td>
+                                    <td class="topLinksTop" id="l8"><a href="app.html"
+                                            onMouseOver="roll('l8', 'topLinksTop');"
+                                            onMouseOut="roll('l8', 'topLinksTop');">&nbsp;App Contest&nbsp;</a></td>
+                                </tr>
+                            </table>
+                            <div id="menuBG">
+                                <table width="700" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        
+                                        <td class="topLinksBotL" id="l9"><a href="keynotes.html"
+                                            onMouseOver="roll('l9', 'topLinksBotD');"
+                                            onMouseOut="roll('l9', 'topLinksBot');">&nbsp;Keynotes&nbsp;</a>
+                                        </td>
+                                        <td class="topLinksBot" id="20"><a href="sponsorships.html"
+                                            onMouseOver="roll('20', 'topLinksBotD');"
+                                            onMouseOut="roll('20', 'topLinksBot');">&nbsp;Sponsorships&nbsp;</a>
+                                        </td>
+                                        <td class="topLinksTop" id="21"><a href="awards.html"
+                                            onMouseOver="roll('21', 'topLinksTopD');"
+                                            onMouseOut="roll('21', 'topLinksTop');">&nbsp;Awards&nbsp;</a>
+                                        </td>
+                                        <td class="topLinksBot" id="l11"><a href="submit.html"
+                                            onMouseOver="roll('l11', 'topLinksBotD');"
+                                            onMouseOut="roll('l11', 'topLinksBot');">&nbsp;Submit&nbsp;</a>
+                                        </td>
+                                        <td class="topLinksBot" id="l12"><a href="program.html"
+                                            onMouseOver="roll('l12', 'topLinksBotD');"
+                                            onMouseOut="roll('l12', 'topLinksBot');">&nbsp;Program&nbsp;</a>
+                                        </td>
+                                        <td class="topLinksBot" id="l13"><a href="registration.html"
+                                            onMouseOver="roll('l13', 'topLinksBotD');"
+                                            onMouseOut="roll('l13', 'topLinksBot');">&nbsp;Registration
+                                            &nbsp;</a>
+										<td class="topLinksBot" id="l16"><a href="callfortravelgrants.html"
+											onMouseOver="roll('l16', 'topLinksBotD');"
+											onMouseOut="roll('l16', 'topLinksBot');">&nbsp;Grants&nbsp;</a>
+										</td>
+                                        <td class="topLinksBotR" id="l14"><a href="travel.html"
+        									onMouseOver="roll('l14', 'topLinksBotDR');"
+      										onMouseOut="roll('l14', 'topLinksBotR');">&nbsp;Venue&nbsp;</a></td>
+                                        </tr>
+                                    
+                                    
+                                    
+                                </table>
+                            </div>
+                        </div>
+                <table border="0" cellpadding="0" cellspacing="0"
+                  width="700">
+                  <tbody>
+                    <tr>
+                      <td><img src="images/blank.gif" alt="" height="10"
+                          width="1"> </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="pageHeading">&nbsp;</p>
+                      </td>
+                      <td width="1">
+                        <p class="pageHeadingText">&nbsp;Advance&nbsp;Program&nbsp;</p>
+                      </td>
+                      <td>
+                        <p class="pageHeading">&nbsp;</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="3" height="15"><br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                
+                <table border="0" cellpadding="0" cellspacing="0"
+                  width="700">
+                  <tbody>
+                    <tr>
+                      <td class="paragraph" width="700">
+                        <table border="0" cellpadding="0"
+                          cellspacing="0" width="700">
+                          <tbody>
+                            <tr>
+                              <td class="paragraphTitleUL" width="7">&nbsp;</td>
+                              <td width="9"><img
+                                  src="images/title_slash_4.jpg" alt=""></td>
+                              <td class="paragraphTitle" width="1">&nbsp;Advance&nbsp;Program&nbsp;Schedule&nbsp;at&nbsp;a&nbsp;Glance&nbsp;</td>
+                              <td class="paragraphTitleUL"><img
+                                  src="images/title_slash_2.jpg" alt=""></td>
+                              <td width="17"><a
+                                  href="javascript:toggleLayer('program1',
+                                  'program1');"><img
+                                    src="images/title_arrow.jpg"
+                                    name="program1" alt="" border="0"></a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div style="color: rgb(33, 33, 33); font-family:
+                          'Helvetica Neue', Helvetica, Arial,
+                          sans-serif; font-size: 16px; font-style:
+                          normal; font-variant: normal; font-weight:
+                          normal; letter-spacing: normal; line-height:
+                          19.799999237060547px; orphans: auto;
+                          text-align: start; text-indent: 0px;
+                          text-transform: none; white-space: normal;
+                          widows: auto; word-spacing: 0px;
+                          -webkit-text-stroke-width: 0px;
+                          background-color: rgb(255, 255, 255);"><b
+                            style="color: rgb(0, 0, 0); font-family:
+                            Arial, Helvetica, Geneva, Swiss,
+                            SunSans-Regular; font-size: 15px;
+                            line-height: 16px; text-align:
+                            -webkit-center;">
+                            <p style="color: rgb(0, 0, 0); display:
+                              inline !important;"><br>
+                              Please find below a advance schedule for the MobiCom 2015 conference, workshop, and social events.</p>
+                          </b></div>
+                          <br>
+                        <div id="program1">
+                          <p> <img src="images/Program-schedule.png"
+                              alt="Program-at-a-Glance" border="0"
+                              width="700"><br>
+                            <img src="images/blank.gif" alt=""
+                              height="8" width="1"> </p>
+                        </div>
+                                    
+                        
+                        <!--
+                        <meta charset="utf-8">
+                        <div style="color: rgb(33, 33, 33); font-family:
+                          'Helvetica Neue', Helvetica, Arial,
+                          sans-serif; font-size: 13px; font-style:
+                          normal; font-variant: normal; font-weight:
+                          normal; letter-spacing: normal; line-height:
+                          19.799999237060547px; orphans: auto;
+                          text-align: start; text-indent: 0px;
+                          text-transform: none; white-space: normal;
+                          widows: auto; word-spacing: 0px;
+                          -webkit-text-stroke-width: 0px;
+                          background-color: rgb(255, 255, 255);"><b
+                            style="color: rgb(0, 0, 0); font-family:
+                            Arial, Helvetica, Geneva, Swiss,
+                            SunSans-Regular; font-size: 12px;
+                            line-height: 16px; text-align:
+                            -webkit-center;">
+                            <p style="color: rgb(255, 0, 0); display:
+                              inline !important;"><br>
+                              Unless specified otherwise, all
+                              talks/events take place in the Haleakala
+                              Ballroom.</p>
+                          </b></div>
+                        <div style="color: rgb(33, 33, 33); font-family:
+                          'Helvetica Neue', Helvetica, Arial,
+                          sans-serif; font-size: 13px; font-style:
+                          normal; font-variant: normal; font-weight:
+                          normal; letter-spacing: normal; line-height:
+                          19.799999237060547px; orphans: auto;
+                          text-align: start; text-indent: 0px;
+                          text-transform: none; white-space: normal;
+                          widows: auto; word-spacing: 0px;
+                          -webkit-text-stroke-width: 0px;
+                          background-color: rgb(255, 255, 255);"><b
+                            style="color: rgb(0, 0, 0); font-family:
+                            Arial, Helvetica, Geneva, Swiss,
+                            SunSans-Regular; font-size: 12px;
+                            line-height: 16px; text-align:
+                            -webkit-center;">
+                            <p style="color: rgb(255, 0, 0); display:
+                              inline !important;"><span
+                                class="Apple-converted-space">&nbsp;</span><br>
+                            </p>
+                          </b></div>
+                        <div style="color: rgb(33, 33, 33); font-family:
+                          'Helvetica Neue', Helvetica, Arial,
+                          sans-serif; font-size: 13px; font-style:
+                          normal; font-variant: normal; font-weight:
+                          normal; letter-spacing: normal; line-height:
+                          19.799999237060547px; orphans: auto;
+                          text-align: start; text-indent: 0px;
+                          text-transform: none; white-space: normal;
+                          widows: auto; word-spacing: 0px;
+                          -webkit-text-stroke-width: 0px;
+                          background-color: rgb(255, 255, 255);"><b
+                            style="color: rgb(0, 0, 0); font-family:
+                            Arial, Helvetica, Geneva, Swiss,
+                            SunSans-Regular; font-size: 12px;
+                            line-height: 16px; text-align:
+                            -webkit-center;">
+                            <p style="color: rgb(255, 0, 0); display:
+                              inline !important;">All Coffee Breaks are
+                              in the Valley Isle Lounge.</p>
+                          </b></div>
+                        
+                        
+                        <p>
+                        <font size="3.5">You can access the MobiCom '14 proceedings <a href="toc.html">here</font>
+                        </a>!
+                        </p>
+                        
+                        <br>
+                        -->
+                        
+                        
+                        
+                        
+                        
+                        <table border="0" cellpadding="0"
+                          cellspacing="0" width="700">
+                          <tbody>
+                            <tr>
+                              <td class="paragraphTitleUL" width="7">&nbsp;</td>
+                              <td width="9"><img
+                                  src="images/title_slash_4.jpg" alt=""></td>
+                              <td class="paragraphTitle" width="1">&nbsp;Monday,&nbsp;September&nbsp;7,&nbsp;2015&nbsp;-&nbsp;Workshop&nbsp;Program&nbsp;-&nbsp;Day&nbsp;1</td>
+                              <td class="paragraphTitleUL"><img
+                                  src="images/title_slash_2.jpg" alt=""></td>
+                              <td width="17"><a
+                                  href="javascript:toggleLayer('program2',
+                                  'program2');"><img
+                                    src="images/title_arrow.jpg"
+                                    name="program2" alt="" border="0"></a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div id="program2">
+                          <p>
+                            <table border="0" cellpadding="0"
+                              cellspacing="0" width="700">
+                              <tbody>
+                              
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;8:00&nbsp;-&nbsp;9:00</td>
+                                  <td width="570">
+                                    <p> <b>Welcome and registration</b><br>Location: Esclangon UPMC
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;9:00&nbsp;-&nbsp;12:30</td>
+                                  <td width="570">
+                                    <p> <a
+                                        href="http://srif.seas.upenn.edu/"
+                                        target="_blank">Software Radio Implementation Forum (SRIF)</a>
+                                    </p>
+                                    <p><a href="https://mobiarch15.lip6.fr/"
+                                        target="_blank">Workshop on Mobility in the Evolving Internet Architecture (Mobiarch)</a><br>
+                                       </p>
+                                    <p> <a
+                                        href="http://www.grc.upv.es/smartobjects2015/"
+                                        target="_blank">Workshop on Experiences with the Design and Implementation of Smart Objects (SmartObjects)</a> <br>
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;12:30&nbsp;-&nbsp;14:00</td>
+                                  <td width="570">
+                                    <p> <b>Lunch<br>
+                                      </b></p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;14:00&nbsp;-&nbsp;15:30</td>
+                                  <td width="570">
+                                    <p> <a
+                                        href="http://srif.seas.upenn.edu/"
+                                        target="_blank">Software Radio Implementation Forum (SRIF)</a>
+                                    </p>
+                                    <p><a href="https://mobiarch15.lip6.fr/"
+                                        target="_blank">Workshop on Mobility in the Evolving Internet Architecture (Mobiarch)</a><br>
+                                       </p>
+                                    <p> <a
+                                        href="https://www.sics.se/~fehmi/hotplanet/2015/"
+                                        target="_blank">Workshop on Hot Topics in Planet-Scale Measurement (HotPlanet)</a> <br>
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;15:30&nbsp;-&nbsp;17:30</td>
+                                  <td width="570">
+                                    <p> <b>Demo and poster session for workshops</b><br>
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;19:00&nbsp;-&nbsp;23:00</td>
+                                  <td width="570">
+                                    <p> <b>Welcome Cocktail
+                                      </b><br>Location: Eiffel Tower / Zamansky Tower</p>
+                                    
+                                  </td>
+                                </tr>
+                                
+                              </tbody>
+                            </table>
+                          </p>
+                        </div>
+                        <br>
+                        <table border="0" cellpadding="0"
+                          cellspacing="0" width="700">
+                          <tbody>
+                            <tr>
+                              <td class="paragraphTitleUL" width="7">&nbsp;</td>
+                              <td width="9"><img
+                                  src="images/title_slash_4.jpg" alt=""></td>
+                              <td class="paragraphTitle" width="1">&nbsp;Tuesday,&nbsp;September&nbsp;8,&nbsp;2015&nbsp;-&nbsp;Technical&nbsp;Program&nbsp;-&nbsp;Day&nbsp;1</td>
+                              <td class="paragraphTitleUL"><img
+                                  src="images/title_slash_2.jpg" alt=""></td>
+                              <td width="17"><a
+                                  href="javascript:toggleLayer('program3',
+                                  'program3');"><img
+                                    src="images/title_arrow.jpg"
+                                    name="program3" alt="" border="0"></a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div id="program3">
+                          <p>
+                            <table border="0" cellpadding="0"
+                              cellspacing="0" width="700">
+                              <tbody>
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;07:30&nbsp;-&nbsp;08:45</td>
+                                  <td width="570">
+                                    <p> <b>Welcome and registration</b><br>
+                                    Location: Institut Pasteur
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;08:45&nbsp;-&nbsp;09:15</td>
+                                  <td width="570"><b>General Chairs' Welcome</b>
+                                    <br>Profs. Serge Fdida and Giovanni Pau
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;09:15&nbsp;-&nbsp;10:15</td>
+                                  <td width="570"><b><a
+                                        href="keynotes.html#keynote1">Keynote
+
+
+
+
+                                        #1</a>: Agility and Fragility in a Real-time World</b><br>
+                                    Gilles Grapinet, Atos SEVP & Worldline CEO
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;10:15&nbsp;-&nbsp;10:30</td>
+                                  <td width="570">
+                                    <p> <b>Coffee Break</b> </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;10:30&nbsp;-&nbsp;12:30</td>
+                                  <td width="570"><b>Paper Session #1:
+                                      Energy, Energy, Energy</b>
+                                    <ul>
+											    <li><b> Wireless Power Hotspot that Charges All of Your Devices </b><br>
+
+                                                          Lixin Shi (MIT)<br>
+                                                          Zach Kabelac (MIT)<br>
+                                                          Dina Katabi (MIT)<br>
+                                                          David Perreault (MIT)<br>
+
+                                                </li>
+                                                [<a href="papers/p2-shiA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Rethinking EnergyPerformance TradeOff in Mobile Web Page
+                                                          Loading</b><br>
+
+                                                          Duc Hoang Bui (Korea Advanced Institute of Science and
+                                                          Technology)<br>
+                                                          Yunxin Liu (Microsoft Research)<br>
+                                                          Hyosu Kim (Korea Advanced Institute of Science and
+                                                          Technology)<br>
+                                                          Insik Shin (Korea Advanced Institute of Science and
+                                                          Technology)<br>
+                                                          Feng Zhao (Microsoft Research)<br>
+                                                </li>
+                                                [<a href="papers/p14-buiA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=OW0PN4xH_Ns" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Duc Bui - mobicom73_session1.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Optimizing Smartphone Power Consumption through Dynamic
+                                                          Resolution Scaling</b><br>
+
+                                                          Songtao He (Microsoft Research and University of Science and
+                                                          Technology of China)<br>
+                                                          Yunxin Liu (Microsoft Research)<br>
+                                                          Hucheng Zhou (Microsoft Research)<br>
+
+                                                </li>
+                                                [<a href="papers/p27-heA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/IC9mrQTGqcc" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Yunxin Liu - mobicom196_session1.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Smartphone Background Activities in the Wild: Origin, Energy
+                                                          Drain, and Optimization</b><br>
+
+                                                          Xiaomeng Chen (Purdue University and Mobile Enerlytics LLC)<br>
+                                                          Abhilash Jindal (Purdue University and Mobile Enerlytics LLC)<br>
+                                                          Ning Ding (Purdue University and Mobile Enerlytics LLC)<br>
+                                                          Y. Charlie Hu (Purdue University and Mobile Enerlytics LLC)<br>
+                                                          Maruti Gupta (Intel Corp.)<br>
+                                                          Rath Vannithamby (Intel Corp.)<br>
+                                                </li>
+                                                [<a href="papers/p40-chenA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/sd4UKKNm_-0" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Xiaomeng Chen - mobicom100_session1.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Precise Power Delay Profiling with Commodity WiFi</b>&nbsp;&nbsp;[<a href="https://youtu.be/whybrBF9LXA" target="_blank">1-min Video</a>]<br>
+
+                                                          Yaxiong Xie (Nanyang Technological University)<br>
+                                                          Zhenjiang Li (Nanyang Technological University)<br>
+                                                          Mo Li (Nanyang Technological University)<br>
+
+                                                </li>
+
+                                                [<a href="papers/p53-xieA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/whybrBF9LXA" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;12:30&nbsp;-&nbsp;14:00</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Lunch</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;14:00&nbsp;-&nbsp;16:00</td>
+                                  <td width="570"><b>Paper Session #2:
+                                      RF can Sense</b>
+                                    <ul>
+                                                <li><b> Understanding and Modeling of WiFi Signal Based Human
+                                                              Activity Recognition </b><br>
+
+                                                              Wei Wang (Nanjing University)<br>
+                                                              Alex X. Liu (Michigan State University)<br>
+                                                              Muhammad Shahzad (Michigan State University)<br>
+                                                              Kang Ling (Nanjing University)<br>
+                                                              Sanglu Lu (Nanjing University)<br>
+                                                </li>
+                                                [<a href="papers/p65-wangA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=FnK4QHj00nk" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Wei Wang - mobicom23_session2.pdf">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> WiDraw: Enabling Handsfree Drawing in the Air on Commodity
+                                                          WiFi Devices</b><br>
+
+                                                          Li Sun (University at Buffalo, SUNY)<br>
+                                                          Souvik Sen (HP Labs)<br>
+                                                          Dimitrios Koutsonikolas (University at Buffalo, SUNY)<br>
+                                                          KyuHan Kim (HP Labs)<br>
+                                                </li>
+                                                [<a href="papers/p77-sunA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/h8T0YD346f8" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                
+                                                
+                                                <li><b> Keystroke Recognition Using WiFi Signals</b><br>
+
+                                                          Kamran Ali (Michigan State University)<br>
+                                                          Alex X. Liu (Michigan State University)<br>
+                                                          Wei Wang (Nanjing University)<br>
+                                                          Muhammad Shahzad (Michigan State University)<br>
+
+                                                </li>
+                                                [<a href="papers/p90-aliA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=Qz85l4iC_m0&feature=youtu.be" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Kamran Ali - mobicom107_session2.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+
+                                  
+
+                                                <li><b> Reusing 60GHz Radios for Mobile Radar Imaging</b><br>
+
+                                                          Yanzi Zhu (UCSB)<br>
+                                                          Yibo Zhu (UCSB)<br>
+                                                          Ben Y. Zhao (UCSB)<br>
+                                                          Haitao Zheng (UCSB)<br>
+                                                </li>
+                                                [<a href="papers/p103-zhuA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/64AJn_G7Gik" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Yanzi Zhu - mobicom116_session2_reusing_60g_yanzi.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+
+                                              <li><b> mTrack: HighPrecision Passive Tracking Using Millimeter Wave
+                                                          Radios</b><br>
+
+                                                          Teng Wei (University of Wisconsin  Madison)<br>
+                                                          Xinyu Zhang (University of Wisconsin  Madison)<br>
+                                                </li>
+                                                [<a href="papers/p117-weiA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/LpJ3JrlFAOo" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Teng Wei - mobicom144_session2.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;16:00&nbsp;-&nbsp;16:15</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Break</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;16:00&nbsp;-&nbsp;18:00</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Demo and Poster Session</b>
+                                      
+                                      <ul>
+											<li>Demo: Platform for Collecting Data From Urban Sensors Using Vehicular Networking
+
+                                                </li>
+                                                
+                                                <li>Demo: AntMonitor - a System for Mobile Traffic Monitoring and Real-Time Prevention of Privacy Leaks
+
+                                                </li>
+                                                
+                                                <li>Demo: Car-Fi: Opportunistic V2I by Exploiting Dual-Access Wi-Fi Networks
+
+
+                                                </li>
+
+                                  
+
+                                                <li>Demo: FIT IoT-LAB A Large Scale Open Experimental IoT Testbed
+
+                                                </li>
+
+                                              <li>Demo: OpenVLC1.0 Platform for Research in Visible Light Communication Networks
+
+                                                </li>
+                                                
+                                              <li>Demo: An Open-source Software Defined Platform for Collaborative and Energy-aware WiFi Offloading
+
+                                                </li>
+                                                
+                                              <li>Demo: Optimizing Smartphone Power Consumption through Dynamic Resolution Scaling
+
+                                                </li>
+                                                
+                                              <li>Demo: Modular Multi-radio Wireless Sensor Platform for IoT Trials with Plug&Play Module Connection
+
+                                                </li>
+                                                
+                                              <li>Demo: Wireless Link Selection on Smartphone: Throughput vs Battery Drain
+
+                                                </li>
+                                                
+                                              <li>Demo: Closer to Cloud-RAN: RAN as a Service
+
+                                                </li>
+                                                
+                                              <li>Demo: Witals, AP-centric Health Diagnosis of WiFi Networks
+
+                                                </li>
+                                                
+                                              <li>Demo: OneLab: Major Computer Networking Testbeds for IoT and Wireless Experimentation
+
+                                                </li>
+                                                
+                                              <li>Demo: Molecular MIMO with Drift
+
+                                                </li>
+                                                
+                                              <li>Demo: Exploring Autoregressive Integrated Models for Time Synchronization in Wireless Sensor Networks
+
+                                                </li>
+                                                
+                                              <li>Demo Abstract: Live Adaptations of Low-power MAC Protocols
+
+                                                </li>
+                                                
+                                              <li>Demo: Implementation of Real-time WiFi Receiver in Ziria, Language for Rapid Prototyping of Wireless PHY
+
+                                                </li>
+                                    </ul>
+                                    
+
+                                    <ul>
+											<li>Poster: Mobile Data Offloading Testbed
+
+
+                                                </li>
+                                                
+                                                <li>Poster: Can Smart Devices Protect Us from Violent Crime?
+
+
+                                                </li>
+                                                
+                                                <li>Poster: Privacy-Preserving Server-Driven Dynamic Spectrum Access System
+
+                                                </li>
+
+                                  
+
+                                                <li>Poster: On the Low-Cost and Distance-Adaptive Device-free Localization
+
+                                                </li>
+
+                                              <li>Poster: NLOS-aware Localization Based on Phase Shift Measurements
+
+
+                                                </li>
+                                                
+                                              <li>Poster: 3D Printing Your Wireless Coverage
+
+
+                                                </li>
+                                                
+                                              <li>Poster: Evaluating Android Applications with Multipath TCP
+
+
+                                                </li>
+                                                
+                                              <li>Poster: Network-Based UE Mobility Estimation in Mobile Networks
+
+                                                </li>
+                                                
+                                              <li>Poster: Extremely Parallel Resource Pre-Fetching for Energy Optimized Mobile Web Browsing
+
+                                                </li>
+                                                
+                                              <li>Poster: VPN Tunnels for Energy Efficient Multimedia Streaming
+
+                                                </li>
+                                                
+                                              <li>Poster: A Low Cost People Flow Monitoring System For Sensing The Potential Danger
+
+                                                </li>
+                                                
+                                              <li>Poster: Unified RemoteUÂ¡ for Mobile Environments
+
+                                                </li>
+                                                
+                                              <li>Poster: Unified RemoteUI for Mobile Environments
+
+                                                </li>
+                                                
+                                              <li>Poster: Use your Senses: A Smooth Multipath TCP WiFi/Mobile Handover
+
+                                                </li>
+                                                
+                                              <li>Poster: Towards Encrypted Query Processing for the Internet of Things
+
+                                                </li>
+                                                
+                                              <li>Poster: Regression-based Characterization of 802.11ac Indoor Performance
+
+                                                </li>
+                                                
+                                              <li>Poster: ParkMaster - Leveraging Edge Computing in Visual Analytics
+
+                                                </li>
+                                                
+                                              <li>Poster: User Location Fingerprinting at Scale
+
+                                                </li>
+                                                
+                                              <li>Poster: Understanding YouTube QoE in Cellular Networks with YoMoApp - a QoE Monitoring Tool for YouTube Mobile
+
+                                                </li>
+                                                
+                                              <li>Poster: Continuous and Fine-grained Respiration Volume Monitoring Using Continuous Wave Radar
+
+                                                </li>
+                                                
+                                              <li>Poster: Distributed Voronoi-based Acoustic Source Localization with Wireless Sensor Networks
+
+                                                </li>
+                                                
+                                              <li>Poster: TRIM: A Truthful Incentive Mechanism for Dynamic and Heterogeneous Tasks in Mobile Crowdsensing
+
+                                                </li>
+                                                
+                                              <li>Poster: A Multi-Drone Platform for Empowering Drones' Teamwork
+
+                                                </li>
+                                                
+                                              <li>Poster: Visible Light Communication in the Dark
+
+                                                </li>
+                                                
+                                              <li>Poster: Scoping Environment to Assist 60 GHz Link Deployment
+
+                                                </li>
+                                                
+                                              <li>Poster: Crowdsourced Location Aware Wi-Fi Access Control
+
+                                                </li>
+                                                
+                                              <li>Poster: An Insomnia Therapy for Clock Synchronization in Wireless Sensor Networks
+
+                                                </li>
+                                    </ul>
+                                    
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;18:00&nbsp;-&nbsp;18:45</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>SIGMOBILE Business Meeting</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;19:00&nbsp;-&nbsp;22:00</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Student - Business Forum</b><br>
+                                      Location: Zamansky Tower, UPMC
+                                    </p>
+                                  </td>
+                                </tr>
+                                      
+                              </tbody>
+                            </table>                      
+                          </p>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <br>
+                        <table border="0" cellpadding="0"
+                          cellspacing="0" width="700">
+                          <tbody>
+                            <tr>
+                              <td class="paragraphTitleUL" width="7">&nbsp;</td>
+                              <td width="9"><img
+                                  src="images/title_slash_4.jpg" alt=""></td>
+                              <td class="paragraphTitle" width="1">&nbsp;Wednesday,&nbsp;September&nbsp;9,&nbsp;2015&nbsp;-&nbsp;Technical&nbsp;Program&nbsp;-&nbsp;Day&nbsp;2</td>
+                              <td class="paragraphTitleUL"><img
+                                  src="images/title_slash_2.jpg" alt=""></td>
+                              <td width="17"><a
+                                  href="javascript:toggleLayer('program3',
+                                  'program3');"><img
+                                    src="images/title_arrow.jpg"
+                                    name="program3" alt="" border="0"></a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div id="program3">
+                          <p>
+                            <table border="0" cellpadding="0"
+                              cellspacing="0" width="700">
+                              <tbody>
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;08:00&nbsp;-&nbsp;09:00</td>
+                                  <td width="570">
+                                    <p> <b>Welcome and registration</b><br>
+                                    Location: Institut Pasteur
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;09:00&nbsp;-&nbsp;10:00</td>
+                                  <td width="570"><b><a
+                                        href="keynotes.html#keynote2">Keynote
+
+
+
+
+                                        #2</a>: Research Challenges and Opportunities in a Mobility-centric World</b><br>
+                                    Dr. Jim Kurose, Assistant Director of the National Science Foundation (NSF) for the Computer and Information Science and Engineering (CISE)
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;10:00&nbsp;-&nbsp;10:20</td>
+                                  <td width="570">
+                                    <p> <b>Break</b> </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;10:20&nbsp;-&nbsp;11:30</td>
+                                  <td width="570"><b>Paper Session #3:
+                                      New security threats</b>
+                                    <ul>
+											    <li><b> Acoustic Eavesdropping through Wireless Vibrometry</b><br>
+
+                                                          Teng Wei (University of Wisconsin  Madison)<br>
+                                                          Shu Wang (University of Wisconsin  Madison)<br>
+                                                          Anfu Zhou (University of Wisconsin  Madison)<br>
+                                                          Xinyu Zhang (University of Wisconsin  Madison)<br>
+                                                </li>
+                                                [<a href="papers/p130-weiA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/ufn8JXohEfI" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Teng Wei - mobicom230_session3.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Snooping Keystrokes with mm-level Audio Ranging on a Single
+                                                          Phone</b><br>
+
+                                                          Jian Liu (Stevens Institute of Technology, Hoboken, NJ 07030,
+                                                          USA)<br>
+                                                          Yan Wang (Stevens Institute of Technology, Hoboken, NJ 07030,
+                                                          USA)<br>
+                                                          Gorkem Kar (Winlab, Rutgers University, North Brunswick, NJ
+                                                          08902, USA)<br>
+                                                          Yingying Chen (Stevens Institute of Technology, Hoboken, NJ
+                                                          07030, USA)<br>
+                                                          Jie Yang (Florida State University, Tallahassee, FL 32306,
+                                                          USA)<br>
+                                                          Marco Gruteser (Winlab, Rutgers University, North Brunswick,
+                                                          NJ 08902, USA)<br>
+
+                                                </li>
+                                                [<a href="papers/p142-liuA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=jlMnIUGcV6I" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Jian Liu - mobicom277_session3.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> MoLe: Motion Leaks through Smartwatch Sensors</b><br>
+
+                                                          He Wang (University of Illinois at UrbanaChampaign)<br>
+                                                          Ted TsungTe Lai (University of Illinois at UrbanaChampaign)<br>
+                                                          Romit Roy Choudhury (University of Illinois at
+                                                          UrbanaChampaign)<br>
+
+                                                </li>
+                                                [<a href="papers/p155-wangA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/218a6FQjL9Y" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Tsung-Te Lai - mobicom275_session3.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;11:30&nbsp;-&nbsp;12:40</td>
+                                  <td width="570"><b>Paper Session #4:
+                                      New access techniques I</b>
+                                    <ul>
+											    <li><b> Recitation: Rehearsing Wireless Packet Reception in Software</b><br>
+
+                                                          Zhenjiang Li (Nanyang Technological University)<br>
+                                                          Yaxiong Xie (Nanyang Technological University)<br>
+                                                          Mo Li (Nanyang Technological University)<br>
+                                                          Kyle Jamieson (University College London)<br>
+
+                                                </li>
+                                                [<a href="papers/p291-liA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/50fVuf8MQw0" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Hekaton: Efficient and Practical Large-Scale MIMO</b><br>
+
+                                                          Xiufeng Xie (University of WisconsinMadison)<br>
+                                                          Eugene Chai (NEC Laboratories America)<br>
+                                                          Xinyu Zhang (University of WisconsinMadison)<br>
+                                                          Karthik Sundaresan (NEC Laboratories America)<br>
+                                                          Amir Khojastepour (NEC Laboratories America)<br>
+                                                          Sampath Rangarajan (NEC Laboratories America)<br>
+                                                </li>
+                                                [<a href="papers/p304-xieA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/CPk_ch3zt7Q" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> FreeBee: Crosstechnology Communication via Free Sidechannel </b><br>
+
+                                                          Song Min Kim (University of Minnesota)<br>
+                                                          Tian He (University of Minnesota)<br>
+
+                                                </li>
+                                                [<a href="papers/p317-kimA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/BJ6Bk_xHS6Q" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Song Min Kim - mobicom59_session4.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;12:40&nbsp;-&nbsp;14:30</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Lunch & Rock Star Award</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;14:30&nbsp;-&nbsp;15:40</td>
+                                  <td width="570"><b>Paper Session #5:
+                                      Emerging sensing methods</b>
+                                    <ul>
+											<li><b> Human Sensing Using Visible Light Communication</b><font color="red"> (Best Video Award)</font><br>
+
+                                                          Tianxing Li (Dartmouth College)<br>
+                                                          Chuankai An (Dartmouth College)<br>
+                                                          Zhao Tian (Dartmouth College)<br>
+                                                          Andrew T. Campbell (Dartmouth College)<br>
+                                                          Xia Zhou (Dartmouth College)<br>
+                                                </li>
+                                                [<a href="papers/p331-liA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/7wK-zo66GdY" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Tianxing Li - mobicom112_session5.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Extending Mobile Interaction Through NearField Visible Light
+                                                          Sensing</b><br>
+
+                                                          Chi Zhang (University of WisconsinMadison)<br>
+                                                          Josh Tabor (University of WisconsinMadison)<br>
+                                                          Jialiang Zhang (University of WisconsinMadison)<br>
+                                                          Xinyu Zhang (University of WisconsinMadison)<br>
+                                                </li>
+                                                [<a href="papers/p345-zhangA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=NcCnbacKzaQ" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Chi Zhang - mobicom176_session5.pdf">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> EcoDrive: A Mobile Sensing and Control System for Fuel
+                                                          Efficient Driving</b><br>
+
+                                                          Lei Kang (University of Wisconsin Madison)<br>
+                                                          Bozhao Qi (University of Wisconsin Madison)<br>
+                                                          Dan Janecek (University of Wisconsin Madison)<br>
+                                                          Suman Banerjee (University of Wisconsin Madison)<br>
+
+                                                </li>
+                                                [<a href="papers/p358-kangA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/fAWHNDiFh1I" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Lei Kang - mobicom114_session5.pps">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;15:40&nbsp;-&nbsp;16:00</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Break</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;16:00&nbsp;-&nbsp;18:00</td>
+                                  <td width="570">
+                                      <meta charset="utf-8">
+                                      <b>Paper Session #6:
+                                      Applications</b>
+                                    <ul>
+                                        <li><b> Kaleido: You Can Watch It But Cannot Record It </b><br>
+
+                                                          Lan Zhang (Tsinghua University)<br>
+                                                          Cheng Bo (University of North Carolina at Charlotte)<br>
+                                                          Jiahui Hou (University of Science and Technology of China)<br>
+                                                          XiangYang Li (Illinois Institute of Technology)<br>
+                                                          Kebin Liu (Tsinghua University)<br>
+                                                          Yu Wang (University of North Carolina at Charlotte)<br>
+                                                          Yunhao Liu (Tsinghua University)<br>
+                                                </li>
+                                                [<a href="papers/p372-zhangA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/7sbqPvUJR3w" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Cheng Bo - mobicom98_session6.pdf">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                
+                                                <li><b> CAreDroid: Adaptation Framework for Android ContextAware
+                                                          Applications</b><font color="red"> (Best Paper Award & Best Community Paper Award)</font><br>
+
+                                                          Salma Elmalaki (University of California, Los Angeles)<br>
+                                                          Lucas Wanner (University of California, Los Angeles)<br>
+                                                          Mani Srivastava (University of California, Los Angeles)<br>              
+                                                </li>
+                                                [<a href="papers/p386-elmalakiA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/ByP56jsdZAg" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Salma Elmalaki - mobicom104_session6.key">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                
+                                                <li><b> CIDER: Enabling Robustness-Power Tradeoffs on a Computational
+                                                          Eyeglass </b><br>
+
+                                                 Authors: Addison Mayberry (University of Massachusetts) <br>
+                                                          Yamin Tun (University of Massachusetts)<br>
+                                                          Pan Hu (University of Massachusetts)<br>
+                                                          Duncan SmithFreedman (University of Massachusetts)<br>
+                                                          Deepak Ganesan (University of Massachusetts)<br>
+                                                          Benjamin Marlin (University of Massachusetts)<br>
+                                                          Christopher Salthouse (University of Massachusetts)<br>
+                                                </li>
+                                                [<a href="papers/p400-mayberryA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/BZJbUMTLkc4" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> piStream: Physical Layer Informed Adaptive Video Streaming
+                                                          Over LTE</b><br>
+
+                                                          Xiufeng Xie (University of WisconsinMadision)<br>
+                                                          Xinyu Zhang (University of WisconsinMadision)<br>
+                                                          Swarun Kumar (Massachusetts Institute of Technology)<br>
+                                                          Li Erran Li (Bell Labs)<br>
+
+                                                </li>
+                                                [<a href="papers/p413-xieA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/ninRpDWFpNg" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Xinyu Zhang - mobicom225_session6.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> The Design and Implementation of a Wireless Video
+                                                          Surveillance System</b><br>
+
+                                                          Tan Zhang (University of WisconsinMadison)<br>
+                                                          Aakanksha Chowdhery (Microsoft Research Redmond)<br>
+                                                          Paramvir Bahl (Microsoft Research Redmond)<br>
+                                                          Kyle Jamieson (University College London)<br>
+                                                          Suman Banerjee (University of WisconsinMadison)<br>
+
+                                                </li>
+                                                [<a href="papers/p426-zhangA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/pWBxj0pbQZE" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]a--->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                              
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;19:00&nbsp;-&nbsp;23:00</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Banquet</b><br>
+                                      Maison des Polytech.
+                                    </p>
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Outstanding Contribution Award</b><br>
+                                      Mario Gerla
+                                    </p>
+                                  </td>
+                                </tr>
+                                      
+                              </tbody>
+                            </table>
+                            
+                            
+                          </p>
+                        </div>
+
+                        
+                        <br>
+                        <table border="0" cellpadding="0"
+                          cellspacing="0" width="700">
+                          <tbody>
+                            <tr>
+                              <td class="paragraphTitleUL" width="7">&nbsp;</td>
+                              <td width="9"><img
+                                  src="images/title_slash_4.jpg" alt=""></td>
+                              <td class="paragraphTitle" width="1">&nbsp;Thursday,&nbsp;September&nbsp;10,&nbsp;2015&nbsp;-&nbsp;Technical&nbsp;Program&nbsp;-&nbsp;Day&nbsp;3</td>
+                              <td class="paragraphTitleUL"><img
+                                  src="images/title_slash_2.jpg" alt=""></td>
+                              <td width="17"><a
+                                  href="javascript:toggleLayer('program3',
+                                  'program3');"><img
+                                    src="images/title_arrow.jpg"
+                                    name="program3" alt="" border="0"></a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div id="program3">
+                          <p>
+                            <table border="0" cellpadding="0"
+                              cellspacing="0" width="700">
+                              <tbody>
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;08:00&nbsp;-&nbsp;08:30</td>
+                                  <td width="570">
+                                    <p> <b>Welcome and registration</b><br>
+                                    Location: Institut Pasteur
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;08:30&nbsp;-&nbsp;9:00</td>
+                                  <td width="570"><b><a
+                                        href="keynotes.html#keynote3">Keynote
+                                        #3</a>: European research towards 5G</b><br>
+                                        R&eacute;my Bayou, Research and Innovation programme and policy Officer for network technologies in DG Connect, European Commission<br>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;9:00&nbsp;-&nbsp;10:30</td>
+                                  <td width="570"><b>Paper Session #7:
+                                      Measurement, reliability and experience</b>
+                                    <ul>
+											    <li><b>SAMPLES: Self Adaptive Mining of Persistent Lexical Snippets
+                                                          for Classifying Mobile Application Traffic </b><br>
+
+                                                          Hongyi Yao (University of Michigan, Ann Arbor)<br>
+                                                          Gyan Ranjan (Symantec Corporation)<br>
+                                                          Alok Tongaonkar (Symantec Corporation)<br>
+                                                          Yong Liao (Symantec Corporation)<br>
+                                                          Z. Morley Mao (University of Michigan, Ann Arbor)<br>
+                                                </li>
+                                                [<a href="papers/p439-yaoA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=BbO8tytW4Tc" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Gyan Ranjan - mobicom58_session7.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Performance Characterization and Call Reliability Problem
+                                                          Diagnosis for Voice over LTE </b><br>
+
+                                                          Yunhan Jack Jia (University of Michigan)<br>
+                                                          Qi Alfred Chen (University of Michigan)<br>
+                                                          Z.Morley Mao (University of Michigan)<br>
+                                                          Jie Hui (TMobile USA Inc.)<br>
+                                                          Kranthi Sontineni (TMobile USA Inc.)<br>
+                                                          Alex Yoon (TMobile USA Inc.)<br>
+                                                          Samson Kwong (TMobile USA Inc.)<br>
+                                                          Kevin Lau (TMobile USA Inc.)<br>
+
+                                                </li>
+                                                [<a href="papers/p452-jiaA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/uzA4LTezvHE" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Yunhan Jia - mobicom51_session7.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Absence: Usagebased failure detection in mobile networks</b><br>
+
+                                                          Binh Nguyen (University of Utah)<br>
+                                                          Zihui Ge (AT&T Labs Research)<br>
+                                                          Jacobus Van der Merwe (University of Utah)<br>
+                                                          He Yan (AT&T Labs Research)<br>
+
+                                                </li>
+                                                [<a href="papers/p464-nguyenA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/3Ha4axsnQZY" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/binh nguyen - mobicom306_session7.pdf">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Experience: Rethinking RRC State Machine Optimization in
+                                                          Light of Recent Advancements</b><br>
+
+                                                          Theodore Stoner (University of Cincinnati)<br>
+                                                          Xuetao Wei (University of Cincinnati)<br>
+                                                          Joseph Knight (University of Cincinnati)<br>
+                                                          Lei Guo (Northeastern University)<br>
+
+                                                </li>
+                                                [<a href="papers/p477-stonerA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=l_3VlxJUjpU&feature=youtu.be" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;10:30&nbsp;-&nbsp;10:50</td>
+                                  <td width="570"><b>Break</b>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;10:50&nbsp;-&nbsp;11:50</td>
+                                  <td width="570"><b>Panel: Big Data, IoT, ...<br>
+                                  Buzz Words For Academia Or Reality For Industry?</b> [<a href="pubformIoT-BigData-1.pdf" target="_blank">Detailed Description</a>]<br>
+                                   Rui Aguiar (Universidade de Aveiro, DETI-Instituto de Telecomunica&ccedil;&otilde;es, Portugal)&nbsp;
+                                        <br>
+                                    
+                                   Tobias Pfeiffer (Preferred Networks, Japan)&nbsp;
+                                        <br>
+
+                                   Harish Viswanathan (Alcatel Lucent Bell Labs, USA)&nbsp;
+                                        <br>
+                                    
+                                      Nora Benhabiles (CEA, EIT Health KIC, France)&nbsp;
+                                        <br>
+                                      Pablo Rodriguez (Telefonica, Spain)&nbsp;
+                                        <br>
+                                      Jia Wang (AT&T, USA)&nbsp;
+                                        <br>
+                                      Hui Zang (Huawei, USA)&nbsp;
+                                        <br>
+                                  
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;11:50&nbsp;-&nbsp;13:00</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Lunch</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;13:00&nbsp;-&nbsp;15:00</td>
+                                  <td width="570"><b>Paper Session #8:
+                                      Localization and RFID</b>
+                                    <ul>
+											<li><b>  See Through Walls with COTS RFID Systems! </b><br>
+
+                                                          Lei Yang (Tsinghua University)<br>
+                                                          Qiongzheng Lin (Tsinghua University)<br>
+                                                          Xiangyang Li (Illinois Institute of Technology)<br>
+                                                          Tianci Liu (Tsinghua University)<br>
+                                                          Yunhao Liu (Tsinghua University)<br>
+
+                                                </li>
+                                                [<a href="papers/p487-yangA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/vTmRw5AN0do?" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Lei yang - mobicom62_session8.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> "Come and Be Served": Parallel Decoding for COTS RFID
+                                                          Tags</b><br>
+
+                                                          Jiajue Ou (Nanyang Technological University)<br>
+                                                          Mo Li (Nanyang Technological University)<br>
+                                                          Yuanqing Zheng (The Hong Kong Polytechnic University)<br>
+
+                                                </li>
+                                                [<a href="papers/p500-ouA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=pxBMJe9VXsw" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> Last Mile Navigation Using Smartphones </b><br>
+
+                                                          Yuanchao Shu (Zhejiang University)<br>
+                                                          Kang G. Shin (University of Michigan)<br>
+                                                          Tian He (University of Minnesota)<br>
+                                                          Jiming Chen (Zhejiang University)<br>
+
+                                                </li>
+                                                [<a href="papers/p512-shuA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/gHjKF8caobA" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                <li><b> EchoTag: Accurate InfrastructureFree Indoor Location Tagging
+                                                          with Smartphones</b><br>
+
+                                                          YuChih Tung (The University of Michigan)<br>
+                                                          Kang G. Shin (The University of Michigan)<br>
+                                                </li>
+                                                [<a href="papers/p525-tungA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/J_AQkGCD3MU" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Yu-Chih Tung - mobicom71_session8(backup_only).pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <li><b> ToneTrack: Leveraging Frequency-Agile Radios for Time-Based Indoor Wireless Localization</b><br>
+
+                                                          Jie Xiong (University College London)<br>
+                                                          Karthikeyan Sundaresan (NEC Labs America)<br>
+                                                          Kyle Jamieson (University College London)<br>
+
+                                                </li>
+                                                [<a href="papers/p537-xiongA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/jY6gV3pBPbs" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>] -->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;15:00&nbsp;-&nbsp;15:20</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>Break</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;15:20&nbsp;-&nbsp;16:30</td>
+                                  <td width="570">
+                                      <meta charset="utf-8">
+                                      <b>Paper Session #9:
+                                      New access techniques II</b>
+                                    <ul>
+                                        <li><b> mZig: Enabling MultiPacket Reception in ZigBee</b><br>
+
+                                                          Linghe Kong (McGill University)<br>
+                                                          Xue Liu (McGill University)<br>
+
+                                                </li>
+                                                [<a href="papers/p552-kongA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/IZraNTWYqwE" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Linghe Kong - mobicom84_session9.ppt">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+
+
+                                              <li><b> AirExpress: Enabling inband Wireless Cutthrough
+                                                          Transmission</b><br>
+
+                                                          Bo Chen (The Ohio State University)<br>
+                                                          Yue Qiao (The Ohio State University)<br>
+                                                          Ouyang Zhang (The Ohio State University)<br>
+                                                          Kannan Srinivasan (The Ohio State University)<br>
+
+                                                </li>
+                                                [<a href="papers/p566-chenA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/aGx6e0PvAYE" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/rose owl - mobicom156_session9.ppt">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                                
+                                                
+
+                          
+                                                <li><b> Control Channel Design for ManyAntenna MUMIMO</b><br>
+
+                                                          Clayton Shepard (Rice University)<br>
+                                                          Abeer Javed (Rice University)<br>
+                                                          Lin Zhong (Rice University)<br>
+
+                                                </li>
+                                                [<a href="papers/p578-shepardA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="http://youtu.be/qZpe9EZVApc" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                [<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;16:30&nbsp;-&nbsp;17:30</td>
+                                  <td width="570">
+                                    <p>
+                                      <meta charset="utf-8">
+                                      <b>App Contest</b>
+                                    </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;17:30&nbsp;-&nbsp;18:15</td>
+                                  <td width="570">
+                                      <meta charset="utf-8">
+                                      <b>Paper Session #10:
+                                      Mobile cloud</b>
+                                    <ul>
+                                        <li><b> QuickSync: Improving Synchronization Efficiency for Mobile Cloud Storage Services</b><br>
+
+                                                          Yong Cui (Tsinghua University)<br>
+                                                          Zeqi Lai (Tsinghua University)<br>
+                                                          Xin Wang (Stony Brook University)<br>
+                                                          Ningwei Dai (Tsinghua University)<br>
+                                                          Congcong miao (Tsinghua University)<br>
+
+                                                </li>
+                                                [<a href="papers/p592-cuiA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://www.youtube.com/watch?v=NFJvYjFXJbg&feature=youtu.be" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                [<a href="slides/Lai Zeqi - mobicom47_session10.pptx">Slides</a>]&nbsp;&nbsp;
+                                                <!--[<a href="javascript:void(0)">Presentation Video</a>]-->
+                                                <br>
+
+        
+
+                                              <li><b> FlexiWeb: NetworkAware Compaction for Accelerating Mobile
+                                                          Web Transfers</b><br>
+
+                                                          Shailendra Singh (UC Riverside)<br>
+                                                          Harsha V. Madhyastha (University of Michigan)<br>
+                                                          Srikanth V. Krishnamurthy (UC Riverside)<br>
+                                                          Ramesh Govindan (USC)<br>
+
+                                                </li>
+                                                [<a href="papers/p604-singhA.pdf" target="_blank">Paper</a>]&nbsp;&nbsp;
+                                                [<a href="https://youtu.be/9t33TDKEdsw" target="_blank">1-min Video</a>]&nbsp;&nbsp;
+                                                 <!--
+                                                 [<a href="javascript:void(0)">Slides</a>]&nbsp;&nbsp;
+                                                 [<a href="javascript:void(0)">Presentation Video</a>]
+                                                -->
+                                                <br>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                      
+                              </tbody>
+                            </table>
+                       
+                          </p>
+                        </div>
+                        
+                                                
+                        <table border="0" cellpadding="0"
+                          cellspacing="0" width="700">
+                          <tbody>
+                            <tr>
+                              <td class="paragraphTitleUL" width="7">&nbsp;</td>
+                              <td width="9"><img
+                                  src="images/title_slash_4.jpg" alt=""></td>
+                              <td class="paragraphTitle" width="1">&nbsp;Friday,&nbsp;September&nbsp;11,&nbsp;2015&nbsp;-&nbsp;Workshop&nbsp;Program&nbsp;-&nbsp;Day&nbsp;2</td>
+                              <td class="paragraphTitleUL"><img
+                                  src="images/title_slash_2.jpg" alt=""></td>
+                              <td width="17"><a
+                                  href="javascript:toggleLayer('program2',
+                                  'program2');"><img
+                                    src="images/title_arrow.jpg"
+                                    name="program2" alt="" border="0"></a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div id="program2">
+                          <p>
+                            <table border="0" cellpadding="0"
+                              cellspacing="0" width="700">
+                              <tbody>
+                              
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;8:00&nbsp;-&nbsp;9:00</td>
+                                  <td width="570">
+                                    <p> <b>Welcome and registration</b>
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;9:00&nbsp;-&nbsp;12:30</td>
+                                  <td width="570">
+                                    <p> <a
+                                        href="http://www.acm-chants.org/"
+                                        target="_blank">Workshop on Challenged Networks (CHANTS)</a>
+                                    </p>
+                                    <p><a href="http://hotwireless15.cse.ohio-state.edu/"
+                                        target="_blank">Workshop on Hot Topics on Wireless (HotWireless)</a><br>
+                                       </p>
+                                    <p> <a
+                                        href="http://www.sigmobile.org/workshops/mcs/2015/"
+                                        target="_blank">Workshop on Mobile Cloud Computing and Services (MCS)</a> <br>
+                                      </p>
+                                    <p> <a
+                                        href="http://synrg.csl.illinois.edu/s3/"
+                                        target="_blank">Wireless of the Students, by the Students, and for the Students Workshop (S3)</a> <br>
+                                      </p>
+                                    <p> <a
+                                        href="http://peng.cse.ohio-state.edu/VLCS-2015/"
+                                        target="_blank">Workshop on Visible Light Communication Systems (VLCS)</a> <br>
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;12:30&nbsp;-&nbsp;14:00</td>
+                                  <td width="570">
+                                    <p> <b>Lunch<br>
+                                      </b></p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;14:00&nbsp;-&nbsp;15:30</td>
+                                  <td width="570">
+                                    <p> <a
+                                        href="http://www.acm-chants.org/"
+                                        target="_blank">Workshop on Challenged Networks (CHANTS)</a>
+                                    </p>
+                                    <p><a href="http://hotwireless15.cse.ohio-state.edu/"
+                                        target="_blank">Workshop on Hot Topics on Wireless (HotWireless)</a><br>
+                                       </p>
+                                    <p> <a
+                                        href="http://www.sigmobile.org/workshops/mcs/2015/"
+                                        target="_blank">Workshop on Mobile Cloud Computing and Services (MCS)</a> <br>
+                                      </p>
+                                    <p> <a
+                                        href="http://synrg.csl.illinois.edu/s3/"
+                                        target="_blank">Wireless of the Students, by the Students, and for the Students Workshop (S3)</a> <br>
+                                      </p>
+                                    <p> <a
+                                        href="http://peng.cse.ohio-state.edu/VLCS-2015/"
+                                        target="_blank">Workshop on Visible Light Communication Systems (VLCS)</a> <br>
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;15:30&nbsp;-&nbsp;16:00</td>
+                                  <td width="570">
+                                    <p> <b>Break</b><br>
+                                      </p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/blank.gif" alt=""
+                                      height="10" width="1"></td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                  <td width="130">&nbsp;&nbsp;&nbsp;16:00&nbsp;-&nbsp;17:30</td>
+                                  <td width="570">
+                                    <p> <b>Workshop demo/poster session</b><br>
+                                      </p>
+                                  </td>
+                                </tr>
+                                
+                              </tbody>
+                            </table>
+                          </p>
+                        </div>
+                        
+                        
+                        <br>
+                    </tr> 
+                  </tbody>
+                </table>
+                
+                <table width="700" border="0" cellspacing="0" cellpadding="0">
+                           <tr>
+                               <td width="8"><img src="images/links_left.jpg" alt="">
+                                   </td>
+                               <td width="679" class="bottomLinksBg">
+                                <p>
+                                <a href="index.html">Home</a> | <a href="about.html">About
+                                </a> | <a href="committees.html">Committees</a> | <a
+                                    href="cfp.html">CFP</a> | <a
+                                        href="workshops.html">Workshops</a> | <a href="demos.html">Demos &amp; Exhibits </a> |
+                                    <a href="posters.html">Posters &amp; SRC</a> | <a href="app.html">App Contest</a><br> <a href="keynotes.html">Keynotes</a> | <a href="sponsorships.html">Sponsorships</a> |
+                                    <a href="awards.html">Awards</a> |
+                                    <a href="submit.html">Submit</a> | <a href="tbt.html">Program</a> |
+                                    <a href="registration.html">Registration</a> | <a href="travelgrants.html">Grants</a> | <a href="tbt.html">Venue &amp; Travel</a>
+                                </p></td>
+                               <td width="8"><img src="images/links_right.jpg" alt="">
+                                   </td>
+                           </tr>
+                       </table>
+
+                <table border="0" cellpadding="0" cellspacing="0"
+                  width="700">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="copyright" align="center">Copyright
+                          ?2015, ACM Annual International Conference on
+                          Mobile Computing and Networking</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </center>
+            </td>
+            <td bgcolor="#FFFFFF"><br>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="images/corner_bl.gif"></td>
+            <td bgcolor="#FFFFFF"><br>
+            </td>
+            <td><img src="images/corner_br.gif"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </center>
+    <map name="Map">
+      <area shape="rect" coords="536,24,580,70"
+        href="http://www.acm.org/" target="_blank" alt="ACM">
+      <area shape="rect" coords="622,24,666,70"
+        href="http://www.sigmobile.org/" target="_blank" alt="SIGMOBILE">
+    </map>
+  </body>
+</html>

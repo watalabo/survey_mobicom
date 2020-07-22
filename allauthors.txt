@@ -1,0 +1,201 @@
+ Haojian Jin, Jingxian Wang, Swarun Kumar, Jason Hong (Carnegie Mellon University)
+ Vikram Iyer, Rajalakshmi Nandakumar, Anran Wang, Sawyer B. Fuller, Shyamnath Gollakota (University of Washington)
+ Joao G. P. Rodrigues, Ana Aguiar (University of Porto)
+ Jian Ding (Rice University); Ranveer Chandra (Microsoft)
+ Belal Korany, Chitra R. Karanam, Hong Cai, Yasamin Mostofi (University of California Santa Barbara)
+ Sangeun Oh, Ahyeon Kim, Sunjae Lee, Kilho Lee, Dae R. Jeong (KAIST); Steven Y. Ko (University at Buffalo, The State University of New York); Insik Shin (KAIST)
+ Branden Ghena, Joshua Adkins (University of California, Berkeley); Longfei Shangguan (Microsoft Cloud & AI); Kyle Jamieson (Princeton University); Phil Levis (Stanford University); Prabal Dutta (University of California, Berkeley)
+ Chuhan Gao (University of Wisconsin-Madison); Mehrdad Hessar (University of Washington); Krishna Chintalapudi, Bodhi Priyantha (Microsoft Research)
+ Ambuj Varshney, Andreas Soleiman, Thiemo Voigt (Uppsala University, Sweden)
+ Philip Lundrigan (Brigham Young University); Neal Patwari (Washington University in St. Louis); Sneha Kasera (University of Utah)
+ Renjie Zhao, Fengyuan Zhu, Siyuan Peng, Yuda Feng, Xiaohua Tian, Hui Yu, Xinbing Wang (Shanghai Jiao Tong University)
+ Tingjun Chen, Mahmood Baraani Dastjerdi (Columbia University); Jin Zhou (University of Illinois at Urbana-Champaign); Harish Krishnaswamy, Gil Zussman (Columbia University)
+ Lu Chen, Kannan Srinivasan, Fang Liu (Ohio State University)
+ Nam Bui, Nhat Pham, Jessica Jacqueline Barnitz, Phuc Nguyen, Hoang Truong, Taeho Kim, Anh Nguyen, Zhanan Zou, Nicholas Farrow, Jianliang Xiao (University of Colorado Boulder); Robin Deterding (Children's Hospital Colorado); Thang Dinh (Virginia Commonwealth University); Tam Vu (University of Colorado Boulder)
+ Anran Wang (University of Washington), Jacob Sunshine (University of Washington School of Medicine), Shyamnath Gollakota (University of Washington)
+ Hanbin Zhang, Chen Song, Aosen Wang (University at Buffalo); Dongmei Li (University of Rochester Medical Center); Wenyao Xu (University at Buffalo)
+ Aidan Curtis, Amruta Pai, Jian Cao (Rice University); Nidal Moukaddam (Baylor College of Medicine); Ashutosh Sabharwal (Rice University)
+ George Boateng (ETH Zurich); Vivian Genaro Motti (George Mason); Varun Mishra (Dartmouth); John A. Batsis (Dartmouth-Hitchcock Medical Center); Josiah Hester (Northwestern); David Kotz (Dartmouth)
+ Anfu Zhou, Huanhuan Zhang, Guangyuan Su, Leilei Wu, Ruoxuan Ma, Zhen Meng (Beijing University of Posts and Telecommunications); Xinyu Zhang (University of California San Diego); Xiufeng Xie (Hewlett Packard Labs); Huadong Ma (Beijing University of Posts and Telecommunications); Xiaojiang Chen (Alibaba Inc.)
+ Ghufran Baig, Jian He, Mubashir Adnan Qureshi, Lili Qiu (The University of Texas at Austin); Peng Chen, Yinliang Hu (Huawei)
+ Royson Lee, Stylianos I. Venieris, Lukasz Dudziak, Sourav Bhattacharya, Nicholas D. Lane (Samsung AI Center Cambridge)
+ Luyang Liu, Hongyu Li, Marco Gruteser (WINLAB, Rutgers University)
+ Xiufeng Xie, Kyu-Han Kim (Hewlett Packard Labs)
+ Taegyeong Lee (KAIST); Zhiqi Lin (University of Science and Technology of China); Saumay Pushp (KAIST); Caihua Li (Rice University); Yunxin Liu (Microsoft Research); Youngki Lee (Seoul National University); Fengyuan Xu (Najing University); Chenren Xu (Peking University); Lintao Zhang (Microsoft Research); Junehwa Song (KAIST)
+ Arjun Balasingam (Stanford University); Manu Bansal (Stanford University); Rakesh Misra (Uhana Inc.); Kanthi Nagaraj (Stanford University); Rahul Tandra (Uhana Inc.); Sachin Katti (Stanford University); Aaron Schulman (UC San Diego)
+ Spencer Sevilla, Matthew Johnson, Pathirat Kosakanchit, Jenny Ting Liang, Kurtis Heimerl (University of Washington)
+ Muhammad Taqi Raza, Songwu Lu (UCLA)
+ Jing Wang, Yufan Zheng, Yunzhe Ni, Chenren Xu (Peking University), Feng Qian (University of Minnesota - Twin Cities), Wangyang Li, Wantong Jiang, Yihua Cheng, Zhuo Cheng (Peking University), Yuanjie Li, Xiufeng Xie (Hewlett Packard Labs), Yi Sun (Institute of Computing Technology, University of Chinese Academy of Sciences), Zhongfeng Wang (China Academy of Railway Sciences)
+ Ashkan Nikravesh, Yihua Guo, Xiao Zhu (University of Michigan); Feng Qian (University of Minnesota - Twin Cities); Z. Morley Mao (University of Michigan)
+ Swetank Kumar Saha, Shivang Aggarwal, Rohan Pathak, Dimitrios Koutsonikolas (University at Buffalo, The State University of New York); Joerg Widmer (IMDEA Networks Institute)
+ Apurv Bhartia, Bo Chen, Derrick Pallas, Waldin Stone (Cisco Meraki)
+ Qifan Yang, Zhenhua Li (Tsinghua University); Tianyin Xu (UIUC); Ennan Zhai (Alibaba Group Inc.); Yunhao Liu (Tsinghua University); Yuanchao Huang, Jiaming He, Hai Long (Tencent Security)
+ Zhiyong Shan (Wichita State University); Raina Samuel, Iulian Neamtiu (New Jersey Institute of Technology)
+ Byungjin Jun, Fabian E. Bustamante, Sung Yoon Whang (Northwestern University); Zachary S. Bischof (IIJ Research)
+ Yonghun Choi, Seonghoon Park, Hojung Cha (Yonsei University)
+ Liang He (University of Colorado Denver); Linghe Kong, Ziyang Liu (Shanghai Jiao Tong University); Yuanchao Shu (Microsoft Research); Cong Liu (University of Texas at Dallas)
+ Guang Wang, Xiuyuan Chen (Rutgers University); Fan Zhang (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences); Yang Wang (University of Science and Technology of China); Desheng Zhang (Rutgers University)
+ Yu Yang, Xiaoyang Xie, Zhihan Fang (Rutgers University); Fan Zhang (Shenzhen Institute of Advanced Technology); Yang Wang (University of Science and Technology of China); Desheng Zhang (Rutgers University)
+ Wenguang Mao, Mei Wang, Wei Sun, Lili Qiu, Swadhin Pradhan (UT Austin); Yi-chao Chen (Hauoli)
+ Qiongzheng Lin, Zhenlin An, Lei Yang (The Hong Kong Polytechnic University)
+ Yitao He, Zihui Qian, Junyu Bian, Xiaohua Tian, Xinbing Wang (Shanghai Jiao Tong University)
+ Hao Pan, Lanqing Yang, Yi-Chao Chen, Guangtao Xue, Chuang-Wen You, Xiaoyu Ji
+ Diana Zhang, Jingxian Wang (Carnegie Mellon University); Junsu Jang (Massachusetts Institute of Technology); Junbo Zhang (Tsinghua University); Swarun Kumar (Carnegie Mellon University)
+ Yaxiong Xie (Nanyang Technological University); Jie Xiong (UMass Amherst); Mo Li (Nanyang Technological University); Kyle Jamieson (Princeton University)
+ Timothy J Pierson, Travis Peters, Ronald Peterson, David Kotz (Dartmouth College)
+ Jose A. Ayala-Romero (Technical University of Cartagena); Andres Garcia-Saavedra (NEC Laboratories Europe); Marco Gramaglia (Universidad Carlos III de Madrid); Xavier Costa-Perez (NEC Laboratories Europe); Albert Banchs (Universidad Carlos III de Madrid); Juan J. Alcaraz (Technical University of Cartagena)
+ Arjun Bakshi, Yifan Mao, Srinivasan Parthasarathy, Kannan Srinivasan (The Ohio State University)
+ Yijing Zeng, Varun Chandrasekaran, Suman Banerjee (UW-Madison); Domenico Giustiniano (IMDEA Networks)
+ Chun-Yu Chen, Bo-Yao Lin, Junding Wang, Kang G. Shin (University of Michigan, Ann Arbor)
+ Wenqiang Chen, Lin Chen, Yandao Huang (Shenzhen University); Xinyu Zhang (University of California San Diego); Lu Wang, Rukhsana Ruby, Kaishun Wu (Shenzhen University)
+ Xiaopeng Li, Fengyao Yan, Fei Zuo, Qiang Zeng, Lannan Luo (University of South Carolina)
+ Zhenyu Yan, Qun Song, Rui Tan (Nanyang Technological University, Singapore); Yang Li (Shenzhen University, P. R. China); Adams Wai Kin Kong (Nanyang Technological University, Singapore)
+ Jiahui Hou (University of Science and Technology of China & Illinois Institute of Technology); Xiang-Yang Li, Peide Zhu, Zefan Wang (University of Science and Technology of China); Yu Wang (University of North Carolina at Charlotte); Jianwei Qian (Illinois Institute of Technology); Panglong Yang (University of Science and Technology of China)
+ Dong Ma, Guohao Lan, Mahbub Hassan, Wen Hu, Mushfika Baishakhi Upama, Ashraf Uddin (University of New South Wales); Moustafa Youssef (Egypt-Japan University of Science and Technology)
+ Soowon Kang (KAIST); Hyeonwoo Choi (Samsung Electronics); Soo Young Park (KAIST); Chunjong Park (University of Washington); Jemin Lee, Uichin Lee, Sung-Ju Lee (KAIST)
+Milan Stute (Technische Universitat Darmstadt); David Kreitschmann (Technische Universitat Darmstadt); Matthias Hollick (Technische Universitat Darmstadt)
+Mehrdad Moradi (University of Michigan); Karthik Sundaresan (NEC Labs); Eugene Chai (NEC Labs); Sampath Rangarajan (NEC Labs); Z. Morley Mao (University of Michigan)
+Justin Chan (University of Washington); Anran Wang (University of Washington); Vikram Iyer (University of Washington); and Shyamnath Gollakota (University of Washington)
+Peizhen Guo (Yale University); Bo Hu (Yale University); Rui Li (Yale University); Wenjun Hu (Yale University)
+Mehrdad Moradi (University of Michigan); Karthik Sundaresan (NEC Labs); Eugene Chai (NEC Labs); Sampath Rangarajan (NEC Labs); Z. Morley Mao (University of Michigan)
+Yaxiong Xie (Nanyang Technological University); Yanbo Zhang (Nanyang Technological University); Jansen Christian Liando (Nanyang Technological University); Mo Li (Nanyang Technological University)
+Tianxing Li (Dartmouth College); Xia Zhou (Dartmouth College)
+Chuhan Gao (University of Wisconsin-Madison); Xinyu Zhang (University of California, San Diego); Suman Banerjee (University of Wisconsin-Madison)
+Feng Qian (Indiana University); Bo Han (AT&T Labs -- Research); Qingyang Xiao (Indiana University); Vijay Gopalakrishnan (AT&T Labs -- Research)
+Biyi Fang (Michigan State University); Xiao Zeng (Michigan State University); Mi Zhang (Michigan State University)
+Mengwei Xu (Peking University); Mengze Zhu (Peking University); Yunxin Liu (Microsoft Research); Felix Xiaozhu Lin (Purdue University); Xuanzhe Liu (Peking University)
+Zengwen Yuan (UCLA); Qianru Li (UCLA); Yuanjie Li (UCLA); Songwu Lu (UCLA); Chunyi Peng (Purdue University); George Varghese (UCLA)
+Binh Nguyen (University of Utah); Tian Zhang (University of Utah); Bozidar Radunovic (Microsoft Research); Ryan Stutsman (University of Utah); Thomas Karagiannis (Microsoft Research); Jakub Kocur (Core Network Dynamics); Jacobus Van der Merwe (University of Utah)
+Anna Maria Mandalari (University Carlos III of Madrid); Andra Lutu (Telefonica Research, Simula Research Laboratory); Ana Custura (University of Aberdeen); Ali Safari (Politecnico di Torino); Ozgu Alay (Simula Research Laboratory); Marcelo Bagnulo (University Carlos III of Madrid); Vaibhav Bajpai (Technische Universitat Munchen); Anna Brunstrom (Karlstad Universitet); Joerg Ott (Technische Universitat Munchen); Marco Mellia (Politecnico di Torino); Gorry Fairhurst (University of Aberdeen)
+Cristina Marquez (Universidad Carlos III of Madrid); Marco Gramaglia (Universidad Carlos III of Madrid); Marco Fiore (CNR-IEIIT); Albert Banchs (Universidad Carlos III of Madrid and Institute IMDEA Networ); Xavier Costa-Perez (NEC Laboratories Europe)
+Yan Huang (Virginia Tech); Shaoran Li (Virginia Tech);Y. Thomas Hou (Virginia Tech); and Wenjing Lou (Virginia Tech)
+Yasaman Ghasempour (Rice University); Muhammad Kumail Haider (Rice University); Carlos Cordeiro (Intel Corporation); Dimitrios Koutsonikolas (University at Buffalo, SUNY); Edward Knightly (Rice University)
+Joan Palacios (IMDEA Networks Institute and Universidad Carlos III de Madrid); Daniel Steinmetzer (Technische Universitat Darmstadt); Adrian Loch (IMDEA Networks Institute); Matthias Hollick (Technische Universitat Darmstadt); Joerg Widmer (IMDEA Networks Institute)
+Sanjib Sur (University of Wisconsin-Madison); Ioannis Pefkianakis (Hewlett Packard Labs); Xinyu Zhang (University of California San Diego); Kyu-Han Kim (Hewlett Packard Labs)
+Muhammad Kumail Haider (Rice University); Yasaman Ghasempour (Rice University); Dimitrios Koutsonikolas (University at Buffalo, SUNY); Edward Knightly (Rice University)
+Wenjun Jiang (State University of New York at Buffalo); Chenglin Miao (State University of New York at Buffalo); Fenglong Ma (State University of New York at Buffalo); Shuochao Yao (University of Illinois at Urbana-Champaign); Yaqing Wang (State University of New York at Buffalo); Ye Yuan (Beijing University of Technology); Hongfei Xue (State University of New York at Buffalo); Chen Song (State University of New York at Buffalo); Xin Ma (State University of New York at Buffalo); Dimitrios Koutsonikolas (State University of New York at Buffalo); Wenyao Xu (State University of New York at Buffalo); Lu Su (State University of New York at Buffalo)
+Jie Zhang (NorthWest University); Zhanyong Tang (NorthWest University); Meng Li (NorthWest University); Dingyi Fang (NorthWest University); Petteri Nurmi (Lancaster University) Zheng Wang (Lancaster University)
+Bing Zhou (Stony Brook University); Jay Lohokare (Stony Brook University); Ruipeng Gao (Beijing Jiaotong University); Fan Ye (Stony Brook University)
+Anadi Chaman (UIUC); Jiaming Wang (UIUC); Jiachen Sun (SJTU); Haitham Hassanieh(UIUC); Romit Roy Choudhury (UIUC)
+Viet Nguyen and Mohamed Ibrahim (WINLAB, Rutgers University); Hoang Truong and Phuc Nguyen (University of Colorado Boulder); Marco Gruteser (WINLAB, Rutgers University); Tam Vu (University of Colorado Boulder); Richard Howard (WINLAB, Rutgers University)
+Haotian Deng (Purdue); Weicheng Wang (Purdue); Chunyi Peng (Purdue)
+Ge Wang (Xi'an Jiaotong University); Haofan Cai (University of California, Santa Cruz); Chen Qian (University of California, Santa Cruz); Jinsong Han (Xi'an Jiaotong University); Xin Li (University of California, Santa Cruz); Han Ding (Xi'an Jiaotong University); Jizhong Zhao (Xi'an Jiaotong University)
+Dianqi Han (Arizona State University); Yimin Chen (Arizona State University); Tao Li (Arizona State University); Rui Zhang (University of Delaware); Yanchao Zhang (Arizona State University); Terri Hedgpeth (Arizona State University)
+Mohamed Ibrahim (WINLAB, Rutgers University); Hansi Liu (WINLAB, Rutgers University); Minitha Jawahar (WINLAB, Rutgers University); Viet Nguyen (WINLAB, Rutgers University); Marco Gruteser (WINLAB, Rutgers University); and Richard Howard (WINLAB, Rutgers University); Bo Yu and Fan Bai (General Motors Research)
+Sheng Shen(University of Illinois at Urbana-Champaign); Romit Roy Choudhury (University of Illinois at Urbana-Champaign); Mahanth Gowda (Penn State University)
+Lingkun Li (Tsinghua University); Pengjin Xie (Tsinghua University); Jiliang Wang (Tsinghua University)
+Ju Wang (University of Waterloo); Omid Abari (University of Waterloo); Srinivasan Keshav (University of Waterloo)
+Meng Jin (Northwest University); Yuan He (Tsinghua University); Xin Meng (Northwest University); Dingyi Fang (Northwest University); Xiaojiang Chen (Northwest University)
+Peter Hillyard (Xandem Technology); Anh Luong (Carnegie Mellon University); Alemayehu Solomon Abrar (University of Utah); Neal Patwari (University of Utah, Xandem Technology); Krishna Sundar, Robert Farney, and Jason Burch (Health Sciences Center, University of Utah); Christina A. Porucznik (Department of Family and Preventive Medicine, University of Utah School of Medicine); Sarah Pollard (Department of Surgery, University of Utah School of Medicine)
+Jia Zhao (Simon Fraser University); Wei Gong (University of Science and Technology of China; Simon Fraser University); Jiangchuan Liu (Simon Fraser University)
+Anand Padmanabha Iyer (UC Berkeley); Li Erran Li (Uber); Mosharaf Chowdhury (University of Michigan); Ion Stoica (UC Berkeley)
+Milan Stute (Technische Universitat Darmstadt); David Kreitschmann (Technische Universitat Darmstadt); Matthias Hollick (Technische Universitat Darmstadt)
+Noah Klugman(University of California Berkeley); Veronica Jacome(University of California Berkeley); Meghan Clark(University of California Berkeley); Matthew Podolsky(University of California Berkeley); Patrick Pannuto(University of California Berkeley); Neal Jackson (University of California Berkeley); Aley Soud Nassor (State University of Zanzibar); Catherine Wolfram and Duncan Callaway (University of California Berkeley); Jay Taneja (University of Massachusetts Amherst); Prabal Dutta (University of California Berkeley)
+HyunJong Lee (University of Michigan); Jason Flinn (University of Michigan); Basavaraj Tonshal (Ford Motor Co.)
+Kai Zhang (School of Software and TNList, Tsinghua University); Chenshu Wu (University of Maryland, College Park); Chaofan Yang (School of Software and TNList, Tsinghua University); Yi Zhao (School of Software and TNList, Tsinghua University); Kehong Huang (School of Software and TNList, Tsinghua University); Chunyi Peng (Department of Computer Science, Purdue University); Yunhao Liu (School of Software and TNList, Tsinghua University); Zheng Yang (School of Software and TNList, Tsinghua University)
+Ke Sun (Nanjing University); Ting Zhao (Nanjing University); Wei Wang (Nanjing University); Lei Xie (Nanjing University)
+Chris Xiaoxuan Lu (University of Oxford); Yang Li (Illinois at Singapore); Peijun Zhao (University of Oxford); Changhao Chen (University of Oxford); Linhai Xie (University of Oxford); Hongkai Wen (University of Warwick); Rui Tan (Nanyang Technological University); Niki Trigoni (University of Oxford)
+Zhenlin An (The Hong Kong Polytechnic University); Lei Yang (The Hong Kong Polytechnic University); Qiongzheng Lin (The Hong Kong Polytechnic University)
+Zhijun Li (University of Minnesota & Harbin Institute of Technology); Tian He (University of Minnesota);
+Shangqing Zhao (University of South Florida) ; Zhengping Luo (University of South Florida) ; Zhuo Lu (University of South Florida) ; Xiang Lu (Chinese Academy of Sciences & University of Chinese Academy of Sciences) ; Yao Liu (University of South Florida) ;
+Sanjib Sur (University of Wisconsin-Madison & Hewlett Packard Labs) ;    IoannisPefkianakis (Hewlett Packard Labs) ;    Xinyu Zhang (University of California, San Diego) ;    Kyu-Han Kim (Hewlett Packard Labs) ;
+Teng Wei (University of Wisconsin - Madison) ;  Xinyu Zhang (University of California San Diego) ;
+Yuanjie Li (University of California, Los Angeles) ; Zengwen Yuan (University of California, Los Angeles) ; Chunyi Peng (Purdue University) ;
+Ozgu Alay (Simula Research Laboratory) ; Andra Lutu (Simula Research Laboratory) ; Miguel Peon-Quiros (IMDEA Networks Institute) ; Vincenzo Mancuso (IMDEA Networks Institute) ; Thomas Hirsch (Celerway Communications) ; Kristian Evensen (Celerway Communications) ; Audun Hansen (Celerway Communications) ; Stefan Alfredsson (Karlstad University) ; Jonas Karlsson (Karlstad University) ; Anna Brunstrom (Karlstad University) ; Ali Safari Khatouni (Politecnico di Torino) ; Marco Mellia (Politecnico di Torino) ; Marco Ajmone Marsan (IMDEA Networks Institute & Politecnico di Torino) ;
+Anand Padmanabha Iyer (University of California, Berkeley) ; Li Erran Li (Uber Technologies) ; Ion Stoica (University of California, Berkeley) ;
+Ahmed Elmokashfi (Simula Research Laboratory) ;    DongZhou (Simula Research Laboratory) ;    D~iugas Baltrunas (Simula Research Laboratory) ;
+Haoyang Wu (Peking University) ;    Tao Wang (Peking University) ;    Zengwen Yuan (University of California, Los Angeles) ;    Chunyi Peng (Purdue University) ;    Zhiwei Li (Peking University) ;    Zhaowei Tan (University of California, Los Angeles) ;    Boyan Ding (Peking University) ;    Xiaoguang Li (Peking University) ;    Yuanjie Li (University of California, Los Angeles) ;    Jun Liu (Peking University) ;    Songwu Lu (University of California, Los Angeles) ;
+Lu Chen (Ohio State University) ; Fei Wu (Ohio State University) ; Jiaqi Xu (Ohio State University) ; Kannan Srinivasan (Ohio State University) ; Ness Shroff (Ohio State University) ;
+Xenofon Foukas (University of Edinburgh) ; Mahesh K. Marina (University of Edinburgh) ; Kimon Kontovasilis (NCSR Demokritos) ;
+Yihua Ethan Guo (University of Michigan) ; Ashkan Nikravesh (University of Michigan) ; Z. Morley Mao (University of Michigan) ; Feng Qian (Indiana University) ; Subhabrata Sen (AT&T Labs   Research) ;
+Max Curran (Stony Brook University); Md. Shaifur Rahman (Stony Brook University); Himanshu Gupta (Stony Brook University); Kai Zheng (Stony Brook University); Jon Longtin (Stony Brook University) ; Samir R Das (Stony Brook University) ; Thanvir Mohamed (Stony Brook University) ;
+Hao Pan (Shanghai Jiao Tong University) ; Yi-Chao Chen (Shanghai Jiao Tong University) ; Guangtao Xue (Shanghai Jiao Tong University) ; Xiaoyu Ji (Zhejiang University) ;
+Xieyang Xu (Peking University) ; Yang Shen (Peking University) ; Junrui Yang (Stanford University) ; Chenren Xu (Peking University) ; Guobin Shen (Zepp Labs, Inc.) ; Guojun Chen (Peking University) ; Yunzhe Ni (Peking University) ;
+Yanbing Yang (Nanyang Technological University) ; Jiangtian Nie (Nanyang Technological University) ; Jun Luo (Nanyang Technological University) ;
+Chi Zhang (University of Wisconsin-Madison) ; Xinyu Zhang (University of California San Diego) ;
+Li-Xuan Chuo (University of Michigan) ; Zhihong Luo (University of Michigan) ; Dennis Sylvester (University of Michigan) ; David Blaauw (University of Michigan) ; Hun-Seok Kim (University of Michigan) ;     [1-min Video | Full Paper]<br
+Mojgan Khaledi (University of Utah) ; Mehrdad Khaledi (Rensselaer Polytechnic Institute) ; Shamik Sarkar (University of Utah) ; Sneha Kasera (University of Utah) ; Neal Patwari (University of Utah) ; Kurt Derr (Idaho National Labs) ; Samuel Ramirez (Idaho National Labs) ;
+Yunfei Ma (Massachusetts Institute of Technology) ; Nicholas Selby (Massachusetts Institute of Technology) ; Fadel Adib (Massachusetts Institute of Technology) ;
+Swadhin Pradhan (University of Texas at Austin) ; Eugene Chai (NEC Laboratories America) ; Karthikeyan Sundaresan (NEC Laboratories America) ; Lili Qiu (University of Texas at Austin) ; Mohammad A. Khojastepour (NEC Laboratories America) ; Sampath Rangarajan (NEC Laboratories America) ;
+Ju Wang (Northwest University) ;    Jie Xiong (Singapore Management University) ;    Xiaojiang Chen (Northwest University) ;    Hongbo Jiang (Huazhong University of Science and Technology) ;    RajeshKrishna Balan (Singapore Management University) ;    Dingyi Fang (Northwest University) ;
+Lei Yang (Hong Kong Polytechnic University) ;    Qiongzheng Lin (Hong Kong Polytechnic University) ;     Chunhui Duan (Tsinghua University & Hong Kong Polytechnic University) ;     Zhenlin An (Hong Kong Polytechnic University) ;
+Feng Lin (University at Buffalo (SUNY)) ;    Chen Song (University at Buffalo (SUNY)) ;    Yan Zhuang (University at Buffalo (SUNY)) ;    Wenyao Xu (University at Buffalo (SUNY)) ;    Changzhi Li (Texas Tech University) ;    Kui Ren (University at Buffalo (SUNY)) ;
+Shilin Zhu (University of California-San Diego) ;    Chi Zhang (University of Wisconsin-Madison) ;    Xinyu Zhang (University of California-San Diego) ;
+Huan Feng (University of Michigan) ; Kassem Fawaz (University of Michigan) ; Kang G. Shin (University of Michigan) ;
+Zhice Yang (ShanghaiTech University & Hong Kong University of Science and Technology) ; Qianyi Huang (Hong Kong University of Science and Technology) ; Qian Zhang (Hong Kong University of Science and Technology) ;
+Jian Xu (Stony Brook University) ;  Qingqing Cao (Stony Brook University) ;  Aditya Prakash (Stony Brook University) ;  Aruna Balasubramanian (Stony Brook University) ;  DonaldE. Porter (University of North Carolina at Chapel Hill) ;
+Gaoyang Guan (Zhejiang University) ; Wei Dong (Zhejiang University) ; Yi Gao (Zhejiang University) ; Kaibo Fu (Zhejiang University) ; ZhihaoCheng (Zhejiang University) ;
+Sharath Chandrashekhara (University at Buffalo, The State University of New York) ; Taeyeon Ki (University at Buffalo, The State University of New York) ; Kyungho Jeon (University at Buffalo, The State University of New York) ; KarthikDantu (University at Buffalo, The State University of New York) ; StevenY. Ko (University at Buffalo, The State University of New York) ;
+Zeqi Lai (Tsinghua University) ;    Y. Charlie Hu (Purdue University) ;    Yong Cui (Tsinghua University) ;    Linhui Sun (Tsinghua University) ;    Ningwei Dai (Tsinghua University) ;
+Chanyou Hwang (Korea Advanced Institute of Science and Technology) ; Saumay Pushp (Korea Advanced Institute of Science and Technology) ; Changyoung Koh (Korea Advanced Institute of Science and Technology) ; Jungpil Yoon (Korea Advanced Institute of Science and Technology) ; Yunxin Liu (Microsoft Research) ; Seungpyo Choi (Korea Advanced Institute of Science and Technology) ; Junehwa Song (Korea Advanced Institute of Science and Technology) ;
+Mark D Corner (University of Massachusetts Amherst) ; Brian N Levine (University of Massachusetts Amherst) ; Omar Ismail (University of Massachusetts Amherst) ; Angela Upreti (University of Massachusetts Amherst) ;
+Ashiwan Sivakumar (Purdue University) ; Chuan Jiang (Purdue University) ; Yun Seong Nam (Purdue University) ; Shankaranarayanan Puzhavakath Narayanan (AT&T Labs - Research) ; Vijay Gopalakrishnan (AT&T Labs - Research) ; Sanjay G. Rao (Purdue University) ; Subhabrata Sen (AT&T Labs - Research) ; Mithuna Thottethodi (Purdue University) ; T.N. Vijaykumar (Purdue University) ;
+Zhao Tian (Dartmouth College); Kevin Wright (Dartmouth College); Xia Zhou (Dartmouth College);
+Lei Yang (The Hong Kong Polytechnic University); Yao Li (Tsinghua University); Qiongzheng Lin (Tsinghua University); Xiang-Yang Li (USTC); Yunhao Liu (Tsinghua University);
+Qian Wang (Wuhan University); Kui Ren (SUNY Buffalo); Man Zhou (Wuhan University) ; Tao Lei (Wuhan University); Dimitrios Koutsonikolas ; Lu Su (SUNY Buffalo);
+Soonwon Ka (Soundlly, Inc.); Tae Hyun Kim (Soundlly, Inc.); Jae Yeol Ha (Soundlly, Inc.); Sun Hong Lim (Hanyang University); Su Cheol Shin (Hanyang University); Jun Won Choi (Hanyang University); Chulyoung Kwak (Seoul National University); Sunghyun Choi (Seoul National University);
+Teng Wei (University of Wisconsin-Madison); Xinyu Zhang (University of Wisconsin-Madison);
+Wenguang Mao (UT Austin); Jian He (UT Austin); Lili Qiu (UT Austin);
+Wei Wang (Nanjing University); Alex X. Liu (Michigan State University); Ke Sun (Nanjing University);
+Mingmin Zhao (Massachusetts Institute of Technology); Fadel Adib (Massachusetts Institute of Technology); Dina Katabi (Massachusetts Institute of Technology);
+Rakesh Misra (Stanford University); Aditya Gudipati (Stanford University); Sachin Katti (Stanford University);
+Sanjib Sur (University of Wisconsin - Madison); Ioannis Pefkianakis (HPE Labs); Xinyu Zhang (University of Wisconsin - Madison); Kyu-Han Kim (HPE Labs);
+Eugene Chai(NEC Labs America); Karthikeyan Sundaresan (NEC Labs America); Mohammad A. Khojastepour (NEC Labs America); Sampath Rangarajan (NEC Labs America);
+Wenjie Zhou (The Ohio State University); Tanmoy Das (The Ohio State University); Lu Chen (The Ohio State University); Kannan Srinivasan (The Ohio State University); Prasun Sinha (The Ohio State University);
+Jialiang Zhang (University of Wisconsin-Madison); Xinyu Zhang (University of Wisconsin-Madison); Pushkar Kulkarni (University of Wisconsin-Madison); Parameswaran Ramanathan (University of Wisconsin-Madison);
+Utkarsh Goel (Montana State University); Moritz Steiner (Akamai Technologies Inc.); Mike P. Wittie (Montana State University); Martin Flack (Akamai Technologies Inc.); Stephen Ludin (Akamai Technologies Inc.);
+Ashkan Nikravesh (University of Michigan); Yihua Guo (University of Michigan); Feng Qian (Indiana University); Z. Morley Mao (University of Michigan); Subhabrata Sen (AT&amp;T Labs - Research);
+Yuanjie Li (University of California, Los Angeles); Chunyi Peng (The Ohio State University) ; Zengwen Yuan (University of California, Los Angeles) ; Jiayao Li (University of California, Los Angeles); Haotian Deng (The Ohio State University); Tao Wang (Peking University);
+Yunfei Ma (Cornell University); Xiaonan Hui (Cornell University); Edwin C. Kan (Cornell University);
+Chi Zhang (University of Wisconsin-Madison); Xinyu Zhang (University of Wisconsin-Madison);
+Ju Wang (Northwest University); Hongbo Jiang (Huazhong University of Science and Technology); Jie Xiong (Singapore Management University); Kyle Jamieson (Princeton University and University College London); Xiaojiang Chen (Northwest University); Dingyi Fang (Northwest University); Binbin Xie (Northwest University);
+Aisha Syed (University of Utah); Jacobus Van der Merwe (University of Utah);
+Bin Cheng (WINLAB, Rutgers University); Ali Rostami (WINLAB, Rutgers University); Marco Gruteser (WINLAB, Rutgers University);
+Mahanth Gowda (UIUC); Justin Manweiler (IBM Research); Ashutosh Dhekne (UIUC); Romit Roy Choudhury (UIUC); Justin D. Weisz (IBM Research);
+Huanle Zhang (Nanyang Technological University); Wan Du (Nanyang Technological University); Pengfei Zhou (Nanyang Technological University); Mo Li (Nanyang Technological University) ; Prasant Mohapatra (University of California, Davis);
+Zhisheng Yan (University at Buffalo); Chang Wen Chen (University at Buffalo);
+Petko Georgiev (University of Cambridge); Nicholas D. Lane (University College London and Bell Labs); Kiran K. Rachuri (Samsung Research America); Cecilia Mascolo (University of Cambridge);
+Cihang Liu (Tsinghua University) ; Lan Zhang (Tsinghua University) ; Zongqian Liu (Tsinghua University) ; Kebin Liu (Tsinghua University); Xiangyang Li (University of Science and Technology of China); Yunhao Liu (Tsinghua University);
+Aanjhan Ranganathan(ETH Zurich); Hildur Olafsdottir(ETH Zurich); Srdjan Capkun (ETH Zurich);
+Earlence Fernandes (University of Michigan) ; Oriana Riva (Microsoft Research) ; Suman Nath (Microsoft Research);
+Daniel Moser (ETH Z&#252;rich) ; Patrick Leu (ETH Z&#252;rich); Vincent Lenders (armasuisse); Aanjhan Ranganathan (ETH Z&#252;rich); Fabio Ricciato (University Ljubljana); Srdjan Capkun (ETH Z&#252;rich);
+Yan Michalevsky (Stanford University); Suman Nath (Microsoft Research); Jie Liu (Microsoft Research);
+Der-Yeuan Yu (ETH Zurich); Aanjhan Ranganathan (ETH Zurich); Ramya Jayaram Masti (ETH Zurich); Claudio Soriente (Telefonica); Srdjan Capkun (ETH Zurich);
+Lixin Shi (MIT); Zach Kabelac (MIT); Dina Katabi (MIT); David Perreault (MIT)
+Duc Hoang Bui (Korea Advanced Institute of Science and Technology); Yunxin Liu (Microsoft Research); Hyosu Kim (Korea Advanced Institute of Science and Technology); Insik Shin (Korea Advanced Institute of Science and Technology); Feng Zhao (Microsoft Research)
+Songtao He (Microsoft Research and University of Science and Technology of China); Yunxin Liu (Microsoft Research); Hucheng Zhou (Microsoft Research)
+Xiaomeng Chen (Purdue University and Mobile Enerlytics LLC); Abhilash Jindal (Purdue University and Mobile Enerlytics LLC); Ning Ding (Purdue University and Mobile Enerlytics LLC); Y. Charlie Hu (Purdue University and Mobile Enerlytics LLC); Maruti Gupta (Intel Corp.); Rath Vannithamby (Intel Corp.)
+Yaxiong Xie (Nanyang Technological University); Zhenjiang Li (Nanyang Technological University); Mo Li (Nanyang Technological University)
+Wei Wang (Nanjing University); Alex X. Liu (Michigan State University); Muhammad Shahzad (Michigan State University); Kang Ling (Nanjing University); Sanglu Lu (Nanjing University)
+Li Sun (University at Buffalo, SUNY); Souvik Sen (HP Labs); Dimitrios Koutsonikolas (University at Buffalo, SUNY); KyuHan Kim (HP Labs)
+Kamran Ali (Michigan State University); Alex X. Liu (Michigan State University); Wei Wang (Nanjing University); Muhammad Shahzad (Michigan State University)
+Yanzi Zhu (UCSB); Yibo Zhu (UCSB); Ben Y. Zhao (UCSB); Haitao Zheng (UCSB)
+Teng Wei (University of Wisconsin Madison); Xinyu Zhang (University of Wisconsin Madison)
+Teng Wei (University of Wisconsin Madison); Shu Wang (University of Wisconsin Madison); Anfu Zhou (University of Wisconsin Madison); Xinyu Zhang (University of Wisconsin Madison)
+Jian Liu (Stevens Institute of Technology, Hoboken, NJ 07030, USA); Yan Wang (Stevens Institute of Technology, Hoboken, NJ 07030, USA); Gorkem Kar (Winlab, Rutgers University, North Brunswick, NJ 08902, USA); Yingying Chen (Stevens Institute of Technology, Hoboken, NJ 07030, USA); Jie Yang (Florida State University, Tallahassee, FL 32306, USA); Marco Gruteser (Winlab, Rutgers University, North Brunswick, NJ 08902, USA)
+He Wang (University of Illinois at UrbanaChampaign); Ted TsungTe Lai (University of Illinois at UrbanaChampaign); Romit Roy Choudhury (University of Illinois at UrbanaChampaign)
+Zhenjiang Li (Nanyang Technological University); Yaxiong Xie (Nanyang Technological University); Mo Li (Nanyang Technological University); Kyle Jamieson (University College London)
+Xiufeng Xie (University of WisconsinMadison); Eugene Chai (NEC Laboratories America); Xinyu Zhang (University of WisconsinMadison); Karthik Sundaresan (NEC Laboratories America); Amir Khojastepour (NEC Laboratories America); Sampath Rangarajan (NEC Laboratories America)
+Song Min Kim (University of Minnesota); Tian He (University of Minnesota)
+Tianxing Li (Dartmouth College); Chuankai An (Dartmouth College); Zhao Tian (Dartmouth College); Andrew T. Campbell (Dartmouth College); Xia Zhou (Dartmouth College)
+Chi Zhang (University of WisconsinMadison); Josh Tabor (University of WisconsinMadison); Jialiang Zhang (University of WisconsinMadison); Xinyu Zhang (University of WisconsinMadison)
+Lei Kang (University of Wisconsin Madison); Bozhao Qi (University of Wisconsin Madison); Dan Janecek (University of Wisconsin Madison); Suman Banerjee (University of Wisconsin Madison)
+Lan Zhang (Tsinghua University); Cheng Bo (University of North Carolina at Charlotte); Jiahui Hou (University of Science and Technology of China); XiangYang Li (Illinois Institute of Technology); Kebin Liu (Tsinghua University); Yu Wang (University of North Carolina at Charlotte); Yunhao Liu (Tsinghua University)
+Salma Elmalaki (University of California, Los Angeles); Lucas Wanner (University of California, Los Angeles); Mani Srivastava (University of California, Los Angeles)
+Authors: Addison Mayberry (University of Massachusetts) ; Yamin Tun (University of Massachusetts); Pan Hu (University of Massachusetts); Duncan SmithFreedman (University of Massachusetts); Deepak Ganesan (University of Massachusetts); Benjamin Marlin (University of Massachusetts); Christopher Salthouse (University of Massachusetts)
+Xiufeng Xie (University of WisconsinMadision); Xinyu Zhang (University of WisconsinMadision); Swarun Kumar (Massachusetts Institute of Technology); Li Erran Li (Bell Labs)
+Tan Zhang (University of WisconsinMadison); Aakanksha Chowdhery (Microsoft Research Redmond); Paramvir Bahl (Microsoft Research Redmond); Kyle Jamieson (University College London); Suman Banerjee (University of WisconsinMadison)
+Hongyi Yao (University of Michigan, Ann Arbor); Gyan Ranjan (Symantec Corporation); Alok Tongaonkar (Symantec Corporation); Yong Liao (Symantec Corporation); Z. Morley Mao (University of Michigan, Ann Arbor)
+Yunhan Jack Jia (University of Michigan); Qi Alfred Chen (University of Michigan); Z.Morley Mao (University of Michigan); Jie Hui (TMobile USA Inc.); Kranthi Sontineni (TMobile USA Inc.); Alex Yoon (TMobile USA Inc.); Samson Kwong (TMobile USA Inc.); Kevin Lau (TMobile USA Inc.)
+Binh Nguyen (University of Utah); Zihui Ge (AT&T Labs Research); Jacobus Van der Merwe (University of Utah); He Yan (AT&T Labs Research)
+Theodore Stoner (University of Cincinnati); Xuetao Wei (University of Cincinnati); Joseph Knight (University of Cincinnati); Lei Guo (Northeastern University)
+Lei Yang (Tsinghua University); Qiongzheng Lin (Tsinghua University); Xiangyang Li (Illinois Institute of Technology); Tianci Liu (Tsinghua University); Yunhao Liu (Tsinghua University)
+Jiajue Ou (Nanyang Technological University); Mo Li (Nanyang Technological University); Yuanqing Zheng (The Hong Kong Polytechnic University)
+Yuanchao Shu (Zhejiang University); Kang G. Shin (University of Michigan); Tian He (University of Minnesota); Jiming Chen (Zhejiang University)
+YuChih Tung (The University of Michigan); Kang G. Shin (The University of Michigan)
+Jie Xiong (University College London); Karthikeyan Sundaresan (NEC Labs America); Kyle Jamieson (University College London)
+Linghe Kong (McGill University); Xue Liu (McGill University)
+Bo Chen (The Ohio State University); Yue Qiao (The Ohio State University); Ouyang Zhang (The Ohio State University); Kannan Srinivasan (The Ohio State University)
+Clayton Shepard (Rice University); Abeer Javed (Rice University); Lin Zhong (Rice University)
+Yong Cui (Tsinghua University); Zeqi Lai (Tsinghua University); Xin Wang (Stony Brook University); Ningwei Dai (Tsinghua University); Congcong miao (Tsinghua University)
+Shailendra Singh (UC Riverside); Harsha V. Madhyastha (University of Michigan); Srikanth V. Krishnamurthy (UC Riverside); Ramesh Govindan (USC)
